@@ -1,3 +1,4 @@
+// middleware/rateLimitTimeout.js
 // Define rate limit constants
 const rateLimit = 20; // Max requests per minute
 const interval = 60 * 1000; // Time window in milliseconds (1 minute)
