@@ -4,6 +4,7 @@ import express from "express";
 import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
+import cookieParser from 'cookie-parser';
 import { createProxyMiddleware } from "http-proxy-middleware";
 
 // Import custom modules
@@ -13,6 +14,9 @@ import { notFoundHandler } from './middleware/errorHandler.js';
 
 // Create an instance of Express app
 const app = express();
+
+app.use(cookieParser());
+// app.use(express.json());
 
 // Middleware setup
 app.use(cors({
