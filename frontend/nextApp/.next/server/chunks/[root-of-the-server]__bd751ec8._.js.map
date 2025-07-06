@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/khahu/Desktop/API_Gateway_Microservices/frontend/nextJS/src/app/api/auth/register/route.ts"],"sourcesContent":["// app/api/auth/register/route.ts\r\nimport { NextResponse } from \"next/server\"\r\n\r\nexport async function POST(req: Request) {\r\n  try {\r\n    const body = await req.json()\r\n\r\n    const res = await fetch(`${process.env.API_GATEWAY_URL}/auth/register`, {\r\n      method: 'POST',\r\n      headers: {\r\n        'Content-Type': 'application/json',\r\n      },\r\n      body: JSON.stringify(body),\r\n    })\r\n\r\n    const data = await res.json()\r\n    return NextResponse.json(data, { status: res.status })\r\n  } catch (err) {\r\n    return NextResponse.json({ message: 'Lỗi hệ thống' }, { status: 500 })\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA,iCAAiC;;;;AACjC;;AAEO,eAAe,KAAK,GAAY;IACrC,IAAI;QACF,MAAM,OAAO,MAAM,IAAI,IAAI;QAE3B,MAAM,MAAM,MAAM,MAAM,GAAG,QAAQ,GAAG,CAAC,eAAe,CAAC,cAAc,CAAC,EAAE;YACtE,QAAQ;YACR,SAAS;gBACP,gBAAgB;YAClB;YACA,MAAM,KAAK,SAAS,CAAC;QACvB;QAEA,MAAM,OAAO,MAAM,IAAI,IAAI;QAC3B,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC,MAAM;YAAE,QAAQ,IAAI,MAAM;QAAC;IACtD,EAAE,OAAO,KAAK;QACZ,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;YAAE,SAAS;QAAe,GAAG;YAAE,QAAQ;QAAI;IACtE;AACF","debugId":null}}]
+}
