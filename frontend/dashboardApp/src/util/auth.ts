@@ -1,15 +1,10 @@
 // auth.ts
 
 import NextAuth from 'next-auth';
-import GitHub from 'next-auth/providers/github';
 import Credentials from 'next-auth/providers/credentials';
 import type { Provider } from 'next-auth/providers';
 
 const providers: Provider[] = [
-  GitHub({
-    clientId: process.env.GITHUB_ID,
-    clientSecret: process.env.GITHUB_SECRET,
-  }),
   Credentials({
     credentials: {
       username: { label: 'Username', type: 'text' },
@@ -26,9 +21,8 @@ const providers: Provider[] = [
           email: 'toolpad-demo@mui.com',
         };
       }
-
       
-      const response = await fetch(`${process.env.API_GATEWAY_URL}/auth/login`, {
+      const response = await fetch(`${process.env.API_GATEWAY_URL}/auth/admin/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

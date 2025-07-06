@@ -77,6 +77,7 @@
     --color-blue-300: oklch(80.9% .105 251.813);
     --color-blue-400: oklch(70.7% .165 254.624);
     --color-blue-500: oklch(62.3% .214 259.815);
+    --color-blue-600: oklch(54.6% .245 262.881);
     --color-blue-800: oklch(42.4% .199 265.638);
     --color-blue-900: oklch(37.9% .146 265.522);
     --color-indigo-50: oklch(96.2% .018 272.314);
@@ -991,6 +992,10 @@
     }
   }
 
+  .bg-blue-500 {
+    background-color: var(--color-blue-500);
+  }
+
   .bg-border {
     background-color: var(--border);
   }
@@ -1347,10 +1352,6 @@
   .tabular-nums {
     --tw-numeric-spacing: tabular-nums;
     font-variant-numeric: var(--tw-ordinal, ) var(--tw-slashed-zero, ) var(--tw-numeric-figure, ) var(--tw-numeric-spacing, ) var(--tw-numeric-fraction, );
-  }
-
-  .underline {
-    text-decoration-line: underline;
   }
 
   .underline-offset-4 {
@@ -1726,19 +1727,9 @@
     inset: calc(var(--spacing) * -2);
   }
 
-  .after\:inset-0:after {
-    content: var(--tw-content);
-    inset: calc(var(--spacing) * 0);
-  }
-
   .after\:inset-y-0:after {
     content: var(--tw-content);
     inset-block: calc(var(--spacing) * 0);
-  }
-
-  .after\:top-1\/2:after {
-    content: var(--tw-content);
-    top: 50%;
   }
 
   .after\:left-1\/2:after {
@@ -1746,35 +1737,9 @@
     left: 50%;
   }
 
-  .after\:z-0:after {
-    content: var(--tw-content);
-    z-index: 0;
-  }
-
-  .after\:flex:after {
-    content: var(--tw-content);
-    display: flex;
-  }
-
   .after\:w-\[2px\]:after {
     content: var(--tw-content);
     width: 2px;
-  }
-
-  .after\:items-center:after {
-    content: var(--tw-content);
-    align-items: center;
-  }
-
-  .after\:border-t:after {
-    content: var(--tw-content);
-    border-top-style: var(--tw-border-style);
-    border-top-width: 1px;
-  }
-
-  .after\:border-border:after {
-    content: var(--tw-content);
-    border-color: var(--border);
   }
 
   .group-data-\[collapsible\=offcanvas\]\:after\:left-full:is(:where(.group)[data-collapsible="offcanvas"] *):after {
@@ -1790,6 +1755,12 @@
   @media (hover: hover) {
     .hover\:bg-accent:hover {
       background-color: var(--accent);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-blue-600:hover {
+      background-color: var(--color-blue-600);
     }
   }
 

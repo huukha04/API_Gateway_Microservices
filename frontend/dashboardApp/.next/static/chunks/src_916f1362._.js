@@ -2587,7 +2587,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
-// app\(dashboard)\layout.tsx
+// app/(dashboard)/layout.tsx
 __turbopack_context__.s({
     "AppSidebar": (()=>AppSidebar)
 });
