@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Suspense } from "react"
+import { PageSpinner } from "@/components/pageSpinner"
 
 import "@/style/tailwind.css";
 import { ThemeProvider } from "@/components/provider/themeProvider"
@@ -29,7 +31,9 @@ export default function RootLayout({
           >
             
             <SessionProviders>
-              {children}
+              <Suspense fallback={<PageSpinner />}>
+                {children}
+              </Suspense>
               </SessionProviders>
           </ThemeProvider>
         </body>

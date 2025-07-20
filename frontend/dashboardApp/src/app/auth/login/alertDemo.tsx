@@ -1,10 +1,12 @@
+// app/auth/login/alertDemo.tsx
+
 import { AlertCircleIcon} from "lucide-react"
 
 import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from "@/components/shacn/ui/alert"
+} from "@/components/shadcn/ui/alert"
 
 export function AlertDemo() {
   return (

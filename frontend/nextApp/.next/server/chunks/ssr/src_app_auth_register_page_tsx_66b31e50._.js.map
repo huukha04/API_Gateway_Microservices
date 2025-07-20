@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/khahu/Desktop/API_Gateway_Microservices/frontend/nextJS/src/app/auth/register/page.tsx"],"sourcesContent":["\"use client\"\r\nimport { RegisterForm } from \"@/app/auth/login/loginForm\"\r\nexport default function LoginPage() {\r\n  return (\r\n                  \r\n    <div className=\"bg-muted flex min-h-svh flex-col items-center justify-center p-6 md:p-10\">\r\n      <div className=\"w-full max-w-sm md:max-w-md\">\r\n        <LoginForm />\r\n      </div>\r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IACtB,qBAEE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC;;;;;;;;;;;;;;;AAIT","debugId":null}}]
-}

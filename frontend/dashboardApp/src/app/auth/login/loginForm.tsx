@@ -1,16 +1,17 @@
+// app/auth/login/loginForm.tsx
 "use client"
 import * as React from "react"
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/shacn/ui/button"
+import { Button } from "@/components/shadcn/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/shacn/ui/card"
-import { Input } from "@/components/shacn/ui/input"
-import { Label } from "@/components/shacn/ui/label"
+} from "@/components/shadcn/ui/card"
+import { Input } from "@/components/shadcn/ui/input"
+import { Label } from "@/components/shadcn/ui/label"
 import { signIn } from "next-auth/react"
 
 import { AlertDemo } from "./alertDemo"

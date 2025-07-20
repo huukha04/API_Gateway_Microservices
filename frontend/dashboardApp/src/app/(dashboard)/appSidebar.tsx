@@ -1,5 +1,3 @@
-// app/(dashboard)/layout.tsx
-
 "use client"
 
 import * as React from "react"
@@ -12,30 +10,42 @@ import {
   MessageCircleQuestion,
   Settings2,
   Trash2,
+  Languages,
+  GraduationCap,
+  Cpu,
+  FileType2,
+  FileSliders,
 } from "lucide-react"
 import { useSession } from "next-auth/react"
 
-import { NavHeader } from "@/app/(dashboard)/navHeader"
-// import { NavFooter } from "@/app/(dashboard)/navFooter"
+import { NavMain } from "@/app/(dashboard)/navMain"
+
 import { NavApp } from "@/app/(dashboard)/navApp"
 import { NavUser } from "@/app/(dashboard)/navUser"
-import { NavContent } from "@/app/(dashboard)/navContent"
 import {
   Sidebar,
   SidebarContent,
   SidebarHeader,
   SidebarFooter,
-} from "@/components/shacn/ui/sidebar"
+} from "@/components/shadcn/ui/sidebar"
+import {
+  Button
+} from "@/components/shadcn/ui/button"
 
-// This is sample data.
+import {
+  SidebarGroup,
+  SidebarGroupLabel,
+} from "@/components/shadcn/ui/sidebar"
 const data = {
   apps: [
     {
-      title: "Acme Inc",
+      title: "Student",
       logo: Command,
       isActive: true,
       sidebarHeader: [
-        { title: "Home", url: "/", icon: Home },
+        { title: "Home", url: "/(dashboard)", icon: Home },
+        { title: "Calendar", url: "/(dashboard)/calendar", icon: Calendar },
+        { title: "Upload", url: "/(dashboard)/upload", icon: Calendar },
       ],
       sidebarFooter: [
         { title: "Calendar", url: "#", icon: Calendar },
@@ -46,68 +56,197 @@ const data = {
       ],
       sidebarContent: [
         {
-          label: "Dự án",
-          title: "Project Alpha",
-          url: "#",
-          icon: Calendar,
-          children: [
+          label: "Kiến thức",
+          item: [
             {
-              title: "Phase 1",
+              title: "Giáo dục phổ thông",
               url: "#",
-              
-              children: [
+              icon: GraduationCap,
+              items: [
                 {
-                  title: "Task A",
+                  title: "Lớp 1",
                   url: "#",
-                  isActive: true,
-                  children: [
-                    { title: "Subtask A.1", url: "./test1" },
-                    { title: "Subtask A.2", url: "./test2" },
+                  items: [
+                    { title: "Task A", url: "#" },  
+                    { title: "Task B", url: "#" },
                   ],
                 },
-                { title: "Task B", url: "#" },
+                {
+                  title: "Lớp 2",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 3",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 4",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 5",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 6",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 7",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 8",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 9",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 10",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 11",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 12",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+              ],
+            },
+            {
+              title: "Anh văn",
+              url: "/(dashboard)/english",
+              icon: Languages,
+              items: [
+                {
+                  title: "Từ vựng",
+                  url: "/(dashboard)/english/vocabulary",
+                  icon: FileType2,
+                  items: [
+                  {
+                    title: "Kho từ vựng",
+                    url: "/(dashboard)/english/vocabulary/list",
+                  },
+                  {
+                    title: "Bài tập tự luyện",
+                    url: "/(dashboard)/english/vocabulary/exercise",
+                  },
+              ],
+                },
+                {
+                  title: "Ngữ pháp",
+                  url: "/(dashboard)/english/grammar",
+                  icon: FileSliders,
+                },
+              ],
+            },
+            {
+              title: "Lập trình",
+              url: "#",
+              icon: Cpu,
+              items: [
+                {
+                  title: "Tiếng anh",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Lớp 12",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+              ],
+            },
+            {
+              title: "Ôn thi chuyển cấp",
+              url: "#",
+              icon: Cpu,
+              items: [
+                {
+                  title: "Tuyển sinh lớp 10",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Tốt nghiệp THPT",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
+                {
+                  title: "Đánh giá năng lực (V-ACT)",
+                  url: "#",
+                  items: [
+                    { title: "Task B", url: "#" },  
+                    { title: "Task B", url: "#" },
+                  ],
+                },
               ],
             },
           ],
         },
-        {
-          label: "Dự án",
-          title: "Project Beta",
-          url: "#",
-          icon: Calendar,
-          children: [
-            {
-              title: "Phase 1",
-              url: "#",
-              children: [
-                {
-                  title: "Task A",
-                  url: "#",
-                  children: [
-                    { title: "Subtask A.1", url: "#" },
-                    { title: "Subtask A.2", url: "#" },
-                  ],
-                },
-                { title: "Task B", url: "#" },
-              ],
-            },
-          ],
-        },
-        {
-          label: "Tài nguyên",
-          title: "Documents",
-          url: "#",
-          icon: Blocks,
-        },
-        {
-          label: "Tài nguyên",
-          title: "Media",
-          url: "#",
-          icon: Inbox,
-        },
+
       ]
     },
-
   ],
 }
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -128,14 +267,20 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           activeIndex={activeAppIdx}
           onAppChange={handleAppChange}
         />
-        <NavHeader items={activeApp.sidebarHeader || []} />
+        <NavMain items={activeApp.sidebarHeader || []} />
       </SidebarHeader>
       <SidebarContent>
-        <NavContent items={activeApp.sidebarContent || []} />
-        {/* <NavFooter items={activeApp.sidebarFooter || []} className="mt-auto " /> */}
+        {activeApp.sidebarContent.map((group, index) => (
+          <SidebarGroup key={group.label + index} className="group-data-[collapsible=icon]:hidden">
+            <SidebarGroupLabel>{group.label}</SidebarGroupLabel>
+            <NavMain items={group.item || []} />
+          </SidebarGroup>
+        ))}
       </SidebarContent>
+
       <SidebarFooter>
-        {session?.user && (
+        <NavMain items={activeApp.sidebarHeader || []} />
+        {session?.user ? (
           <NavUser
             user={{
               name: session.user.name ?? "Unknown",
@@ -143,8 +288,17 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               avatar: session.user.image ?? "/default-avatar.png",
             }}
           />
+        ) : (
+          <Button
+            variant="outline"
+            className="gap-2 px-4 py-2 rounded-lg shadow-sm hover:bg-muted transition"
+            onClick={() => window.location.href = "/auth/login"}
+          >
+            Đăng nhập
+          </Button>
         )}
       </SidebarFooter>
+
 
     </Sidebar>
   )

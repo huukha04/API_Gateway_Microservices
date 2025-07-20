@@ -1,6 +1,6 @@
 [
   {
-    "regexp": "^/.*$",
-    "originalSource": "/:path*"
+    "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next\\/static|_next\\/image|.*\\.png$).*))(\\\\.json)?[\\/#\\?]?$",
+    "originalSource": "/((?!api|_next/static|_next/image|.*\\.png$).*)"
   }
 ]

@@ -171,6 +171,8 @@ const { handlers, auth, signIn, signOut } = (0, __TURBOPACK__imported__module__$
                 token.name = user.name;
                 token.email = user.email;
                 token.image = user.image || null;
+                token.token = user.token || null;
+                token.expires = user.expires || null;
             }
             return token;
         },
@@ -182,11 +184,6 @@ const { handlers, auth, signIn, signOut } = (0, __TURBOPACK__imported__module__$
                 session.user.image = token.image;
             }
             return session;
-        },
-        authorized ({ auth: session, request: { nextUrl } }) {
-            const isLoggedIn = !!session?.user;
-            const isPublicPage = nextUrl.pathname.startsWith('/public');
-            return isPublicPage || isLoggedIn;
         }
     }
 });

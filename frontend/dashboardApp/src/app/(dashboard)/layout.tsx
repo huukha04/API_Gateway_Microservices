@@ -9,13 +9,13 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/shacn/ui/breadcrumb"
-import { Separator } from "@/components/shacn/ui/separator"
+} from "@/components/shadcn/ui/breadcrumb"
+import { Separator } from "@/components/shadcn/ui/separator"
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@/components/shacn/ui/sidebar"
+} from "@/components/shadcn/ui/sidebar"
 
 
 export const metadata: Metadata = {

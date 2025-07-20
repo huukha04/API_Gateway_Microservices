@@ -1,3 +1,5 @@
+// app/auth/login/page.tsx
+
 "use client"
 import { LoginForm } from "@/app/auth/login/loginForm"
 export default function LoginPage() {

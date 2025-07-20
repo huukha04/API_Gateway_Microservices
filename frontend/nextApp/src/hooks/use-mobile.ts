@@ -1,5 +1,3 @@
-// hooks/use-mobile.ts
-// Sourcee code: https://mui.com/toolpad/
 import * as React from "react"
 
 const MOBILE_BREAKPOINT = 768

@@ -1,23 +1,29 @@
 "use client"
 import * as React from "react"
+import { signIn } from "next-auth/react"
+import { useSearchParams } from 'next/navigation'
+
+
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/shacn/ui/button"
+import { Button } from "@/components/shadcn/ui/button"
+import { Input } from "@/components/shadcn/ui/input"
+import { Label } from "@/components/shadcn/ui/label"
+
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/shacn/ui/card"
-import { Input } from "@/components/shacn/ui/input"
-import { Label } from "@/components/shacn/ui/label"
-import { signIn } from "next-auth/react"
+} from "@/components/shadcn/ui/card"
 
 import { AlertDemo } from "./alertDemo"
-import { AlertError } from "./alertError"
+import { AlertError } from "../../../components/alertError"
 
 export function LoginForm({ className, ...props }: React.ComponentProps<"div">) {
   const [error, setError] = React.useState<string | null>(null)
+
+  const searchParams = useSearchParams();
 
   const handleLogin = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -30,19 +36,27 @@ export function LoginForm({ className, ...props }: React.ComponentProps<"div">) 
       username: formData.get('username'),
       password: formData.get('password'),
     });
-
+    
     if (res?.error) {
-      setError('Sai tài khoản hoặc mật khẩu');
+    // Map default error message
+    if (res.error === 'CredentialsSignin') {
+      setError('Invalid username or password');
     } else {
-      window.location.href = '/';
+      setError(res.error);
     }
+  } else {
+    const callbackUrl = searchParams.get('callbackUrl') || '/'
+    window.location.href = callbackUrl; 
+  }
+
   };
 
 
   const handleGithubLogin = async () => {
     setError(null);
+    const callbackUrl = searchParams.get('callbackUrl') || '/'
     await signIn('github', {
-      callbackUrl: '/',
+      callbackUrl: callbackUrl,
     });
 
     
@@ -134,7 +148,7 @@ export function LoginForm({ className, ...props }: React.ComponentProps<"div">) 
         </CardContent>
       </Card>
       <div className="text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4">
-        By signing in, you agree to our <a href="#">Terms of Service</a>{" "}
+        By signing in, you agree to our <a href="./register">Terms of Service</a>{" "}
         and <a href="#">Privacy Policy</a>.
       </div>
     </div>

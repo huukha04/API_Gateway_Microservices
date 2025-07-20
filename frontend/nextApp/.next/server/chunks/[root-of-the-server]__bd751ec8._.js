@@ -58,7 +58,6 @@ module.exports = mod;
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-// app/api/auth/register/route.ts
 __turbopack_context__.s({
     "POST": (()=>POST)
 });
@@ -67,20 +66,42 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$serv
 async function POST(req) {
     try {
         const body = await req.json();
+        const { email, username, password } = body;
+        if (!username || !password) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                message: 'Missing information'
+            }, {
+                status: 400
+            });
+        }
         const res = await fetch(`${process.env.API_GATEWAY_URL}/auth/register`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(body)
+            body: JSON.stringify({
+                username,
+                password,
+                email
+            })
         });
         const data = await res.json();
-        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(data, {
-            status: res.status
+        if (!res.ok) {
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                message: data.message || 'Registration error'
+            }, {
+                status: 400
+            });
+        }
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            message: 'Registration successful'
+        }, {
+            status: 200
         });
     } catch (err) {
+        console.error('Registration error:', err);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-            message: 'Lỗi hệ thống'
+            message: 'Server error'
         }, {
             status: 500
         });

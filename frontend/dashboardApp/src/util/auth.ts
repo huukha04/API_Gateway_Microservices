@@ -93,11 +93,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       }
       return session;
     },
-    authorized({ auth: session, request: { nextUrl } }) {
-      const isLoggedIn = !!session?.user;
-      const isPublicPage = nextUrl.pathname.startsWith('/public');
-      return isPublicPage || isLoggedIn;
-    },
   },
 });
 

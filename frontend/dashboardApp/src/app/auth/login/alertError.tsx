@@ -1,9 +1,10 @@
+// app/auth/login/alertError.tsx
 import { AlertCircleIcon } from "lucide-react";
 import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from "@/components/shacn/ui/alert";
+} from "@/components/shadcn/ui/alert";
 
 interface AlertErrorProps {
   children: React.ReactNode;

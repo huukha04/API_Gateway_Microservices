@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/khahu/Desktop/API_Gateway_Microservices/frontend/nextApp/src/app/education/languages/vocabulary/library/layout.tsx"],"sourcesContent":["\"use client\"\r\n\r\nexport type LibraryProps = {\r\n  _id: string\r\n  title: string\r\n  isPublic: boolean\r\n  isStarred: boolean\r\n  language: string\r\n  updatedAt: string\r\n  user: {\r\n    id: string\r\n    name: string\r\n  }\r\n}\r\n\r\nexport const LANGUAGES = [\r\n  { code: 'en', name: 'English' },\r\n  { code: 'vi', name: 'Tiếng Việt' },\r\n]\r\n\r\n\r\nexport default function Layout({ children }: { children: React.ReactNode }) {\r\n\r\n  return (\r\n    <>\r\n      {children}\r\n    </>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;AAeO,MAAM,YAAY;IACvB;QAAE,MAAM;QAAM,MAAM;IAAU;IAC9B;QAAE,MAAM;QAAM,MAAM;IAAa;CAClC;AAGc,SAAS,OAAO,EAAE,QAAQ,EAAiC;IAExE,qBACE;kBACG;;AAGP;KAPwB","debugId":null}}]
+}

@@ -17,15 +17,18 @@ auth.post('/login', async (req, res) => {
   }
 
   try {
+    console.log('Login attempt:', { username, password });
     const query = 'SELECT * FROM public.users WHERE username = $1';
     const values = [username];
     const { rows } = await pool.query(query, values);
     if (rows.length === 0) {
       return res.status(401).json({ message: 'Invalid credentials' });
     }
+    console.log('User found:', rows[0]);
 
     const user_ = rows[0];
     const isPasswordValid = await bcrypt.compare(password, user_.password);
+    console.log('Password validation result:', user_);
     if (!isPasswordValid) {
       return res.status(401).json({ message: 'Invalid credentials' });
     }
@@ -56,6 +59,7 @@ auth.post('/register', async (req, res) => {
   }
 
   try {
+    console.log('Registration attempt:', { username, email, password });
     const hashedPassword = await bcrypt.hash(password, BCRYPT_SALT_ROUNDS);
     const query = 'INSERT INTO public.users (username, password, email) VALUES ($1, $2, $3) RETURNING id';
     const values = [username, hashedPassword, email];

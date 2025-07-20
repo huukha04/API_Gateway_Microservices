@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/khahu/Desktop/API_Gateway_Microservices/frontend/nextApp/src/app/education/languages/vocabulary/library/%5B...slug%5D/layout.tsx"],"sourcesContent":["import { use } from 'react'\r\nimport ClientPage from './ClientPage'\r\n\r\nexport default function Page({ params }: { params: Promise<{ slug: string[] }> }) {\r\n  const { slug } = use(params)\r\n  const id = slug?.[0] ?? 'N/A'\r\n  const title = slug?.[1] ?? 'N/A'\r\n\r\n  return <ClientPage id={id} title={title} />\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;;;;;;;AAGe,SAAS,KAAK,EAAE,MAAM,EAA2C;IAC9E,MAAM,EAAE,IAAI,EAAE,GAAG,CAAA,GAAA,qMAAA,CAAA,MAAG,AAAD,EAAE;IACrB,MAAM,KAAK,MAAM,CAAC,EAAE,IAAI;IACxB,MAAM,QAAQ,MAAM,CAAC,EAAE,IAAI;IAE3B,qBAAO,8OAAC;QAAW,IAAI;QAAI,OAAO;;;;;;AACpC","debugId":null}}]
+}

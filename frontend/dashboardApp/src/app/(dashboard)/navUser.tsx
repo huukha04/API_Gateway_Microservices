@@ -1,3 +1,5 @@
+// app/(dashboard)/navUser.tsx
+
 "use client"
 
 import {
@@ -13,7 +15,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/components/shacn/ui/avatar"
+} from "@/components/shadcn/ui/avatar"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -22,13 +24,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/shacn/ui/dropdown-menu"
+} from "@/components/shadcn/ui/dropdown-menu"
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@/components/shacn/ui/sidebar"
+} from "@/components/shadcn/ui/sidebar"
 
 import { signOut } from "next-auth/react"
 export function NavUser({
