@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/khahu/Desktop/API_Gateway_Microservices/frontend/nextApp/src/app/%28main%29/page.tsx"],"sourcesContent":["import {\n  Users,\n  BarChart,\n  Settings,\n} from \"lucide-react\"\n\nimport { Card, CardContent, CardTitle } from \"@/components/shadcn/ui/card\"\nimport Link from \"next/link\"\n\nconst apps = [\n  {\n    name: \"Education\",\n    description: \"\",\n    href: \"/education\",\n    icon: Users,\n  },\n]\n\nexport default function MainPage() {\n  return (\n    <>\n    \n    </>\n  )\n}\n"],"names":[],"mappings":";;;;AAAA;;;AASA,MAAM,OAAO;IACX;QACE,MAAM;QACN,aAAa;QACb,MAAM;QACN,MAAM,oMAAA,CAAA,QAAK;IACb;CACD;AAEc,SAAS;IACtB,qBACE;AAIJ","debugId":null}}]
+}

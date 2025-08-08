@@ -1,0 +1,3 @@
+{
+  "/api/dictionary/word/[id]/route": "app/api/dictionary/word/[id]/route.js"
+}

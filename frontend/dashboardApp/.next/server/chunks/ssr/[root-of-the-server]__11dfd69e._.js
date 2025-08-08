@@ -1,0 +1,3075 @@
+module.exports = {
+
+"[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page-turbo.runtime.dev.js"));
+
+module.exports = mod;
+}}),
+"[project]/src/components/provider/themeProvider.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+// app/provider/themeProvider.tsx
+__turbopack_context__.s({
+    "ThemeProvider": (()=>ThemeProvider)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-themes/dist/index.mjs [app-ssr] (ecmascript)");
+"use client";
+;
+;
+function ThemeProvider({ children, ...props }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ThemeProvider"], {
+        ...props,
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/components/provider/themeProvider.tsx",
+        lineNumber: 11,
+        columnNumber: 10
+    }, this);
+}
+}}),
+"[project]/src/components/provider/sessionProvider.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+// app/provider/sessionProvider.tsx
+__turbopack_context__.s({
+    "SessionProviders": (()=>SessionProviders)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/react.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+function SessionProviders({ children }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SessionProvider"], {
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/components/provider/sessionProvider.tsx",
+        lineNumber: 8,
+        columnNumber: 10
+    }, this);
+}
+}}),
+"[project]/src/components/button/themeToggle.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "ThemeToggle": (()=>ThemeToggle)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-themes/dist/index.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$SunFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__SunFilled$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/icons/SunFilled.js [app-ssr] (ecmascript) <export default as SunFilled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$MoonFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MoonFilled$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/icons/MoonFilled.js [app-ssr] (ecmascript) <export default as MoonFilled>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+;
+function ThemeToggle() {
+    const { resolvedTheme, setTheme } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTheme"])();
+    const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        setMounted(true);
+    }, []);
+    const toggleTheme = ()=>{
+        setTheme(resolvedTheme === "dark" ? "light" : "dark");
+    };
+    if (!mounted) return null;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+        onClick: toggleTheme,
+        className: "h-8 px-2.5 rounded-md gap-1.5 text-xl text-red-400 hover:text-red-500 dark:text-sky-400 dark:hover:text-sky-500 group has-[>svg]:px-2.5",
+        children: resolvedTheme === "dark" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$MoonFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MoonFilled$3e$__["MoonFilled"], {}, void 0, false, {
+            fileName: "[project]/src/components/button/themeToggle.tsx",
+            lineNumber: 27,
+            columnNumber: 35
+        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$SunFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__SunFilled$3e$__["SunFilled"], {}, void 0, false, {
+            fileName: "[project]/src/components/button/themeToggle.tsx",
+            lineNumber: 27,
+            columnNumber: 52
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/button/themeToggle.tsx",
+        lineNumber: 23,
+        columnNumber: 5
+    }, this);
+}
+}}),
+"[project]/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+"use strict";
+if ("TURBOPACK compile-time falsy", 0) {
+    "TURBOPACK unreachable";
+} else {
+    if ("TURBOPACK compile-time falsy", 0) {
+        "TURBOPACK unreachable";
+    } else {
+        if ("TURBOPACK compile-time truthy", 1) {
+            if ("TURBOPACK compile-time truthy", 1) {
+                module.exports = __turbopack_context__.r("[externals]/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js [external] (next/dist/compiled/next-server/app-page-turbo.runtime.dev.js, cjs)");
+            } else {
+                "TURBOPACK unreachable";
+            }
+        } else {
+            "TURBOPACK unreachable";
+        }
+    }
+} //# sourceMappingURL=module.compiled.js.map
+}}),
+"[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+"use strict";
+module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-ssr] (ecmascript)").vendored['react-ssr'].ReactJsxDevRuntime; //# sourceMappingURL=react-jsx-dev-runtime.js.map
+}}),
+"[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+"use strict";
+module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-ssr] (ecmascript)").vendored['react-ssr'].React; //# sourceMappingURL=react.js.map
+}}),
+"[project]/node_modules/next-themes/dist/index.mjs [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "ThemeProvider": (()=>J),
+    "useTheme": (()=>z)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+"use client";
+;
+var M = (e, i, s, u, m, a, l, h)=>{
+    let d = document.documentElement, w = [
+        "light",
+        "dark"
+    ];
+    function p(n) {
+        (Array.isArray(e) ? e : [
+            e
+        ]).forEach((y)=>{
+            let k = y === "class", S = k && a ? m.map((f)=>a[f] || f) : m;
+            k ? (d.classList.remove(...S), d.classList.add(a && a[n] ? a[n] : n)) : d.setAttribute(y, n);
+        }), R(n);
+    }
+    function R(n) {
+        h && w.includes(n) && (d.style.colorScheme = n);
+    }
+    function c() {
+        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+    if (u) p(u);
+    else try {
+        let n = localStorage.getItem(i) || s, y = l && n === "system" ? c() : n;
+        p(y);
+    } catch (n) {}
+};
+var b = [
+    "light",
+    "dark"
+], I = "(prefers-color-scheme: dark)", O = typeof window == "undefined", x = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"])(void 0), U = {
+    setTheme: (e)=>{},
+    themes: []
+}, z = ()=>{
+    var e;
+    return (e = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(x)) != null ? e : U;
+}, J = (e)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(x) ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], null, e.children) : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])(V, {
+        ...e
+    }), N = [
+    "light",
+    "dark"
+], V = ({ forcedTheme: e, disableTransitionOnChange: i = !1, enableSystem: s = !0, enableColorScheme: u = !0, storageKey: m = "theme", themes: a = N, defaultTheme: l = s ? "system" : "light", attribute: h = "data-theme", value: d, children: w, nonce: p, scriptProps: R })=>{
+    let [c, n] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>H(m, l)), [T, y] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>c === "system" ? E() : c), k = d ? Object.values(d) : a, S = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((o)=>{
+        let r = o;
+        if (!r) return;
+        o === "system" && s && (r = E());
+        let v = d ? d[r] : r, C = i ? W(p) : null, P = document.documentElement, L = (g)=>{
+            g === "class" ? (P.classList.remove(...k), v && P.classList.add(v)) : g.startsWith("data-") && (v ? P.setAttribute(g, v) : P.removeAttribute(g));
+        };
+        if (Array.isArray(h) ? h.forEach(L) : L(h), u) {
+            let g = b.includes(l) ? l : null, D = b.includes(r) ? r : g;
+            P.style.colorScheme = D;
+        }
+        C == null || C();
+    }, [
+        p
+    ]), f = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((o)=>{
+        let r = typeof o == "function" ? o(c) : o;
+        n(r);
+        try {
+            localStorage.setItem(m, r);
+        } catch (v) {}
+    }, [
+        c
+    ]), A = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCallback"])((o)=>{
+        let r = E(o);
+        y(r), c === "system" && s && !e && S("system");
+    }, [
+        c,
+        e
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        let o = window.matchMedia(I);
+        return o.addListener(A), A(o), ()=>o.removeListener(A);
+    }, [
+        A
+    ]), (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        let o = (r)=>{
+            r.key === m && (r.newValue ? n(r.newValue) : f(l));
+        };
+        return window.addEventListener("storage", o), ()=>window.removeEventListener("storage", o);
+    }, [
+        f
+    ]), (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        S(e != null ? e : c);
+    }, [
+        e,
+        c
+    ]);
+    let Q = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>({
+            theme: c,
+            setTheme: f,
+            forcedTheme: e,
+            resolvedTheme: c === "system" ? T : c,
+            themes: s ? [
+                ...a,
+                "system"
+            ] : a,
+            systemTheme: s ? T : void 0
+        }), [
+        c,
+        f,
+        e,
+        T,
+        s,
+        a
+    ]);
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])(x.Provider, {
+        value: Q
+    }, (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])(_, {
+        forcedTheme: e,
+        storageKey: m,
+        attribute: h,
+        enableSystem: s,
+        enableColorScheme: u,
+        defaultTheme: l,
+        value: d,
+        themes: a,
+        nonce: p,
+        scriptProps: R
+    }), w);
+}, _ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["memo"])(({ forcedTheme: e, storageKey: i, attribute: s, enableSystem: u, enableColorScheme: m, defaultTheme: a, value: l, themes: h, nonce: d, scriptProps: w })=>{
+    let p = JSON.stringify([
+        s,
+        i,
+        a,
+        e,
+        h,
+        l,
+        u,
+        m
+    ]).slice(1, -1);
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])("script", {
+        ...w,
+        suppressHydrationWarning: !0,
+        nonce: typeof window == "undefined" ? d : "",
+        dangerouslySetInnerHTML: {
+            __html: `(${M.toString()})(${p})`
+        }
+    });
+}), H = (e, i)=>{
+    if (O) return;
+    let s;
+    try {
+        s = localStorage.getItem(e) || void 0;
+    } catch (u) {}
+    return s || i;
+}, W = (e)=>{
+    let i = document.createElement("style");
+    return e && i.setAttribute("nonce", e), i.appendChild(document.createTextNode("*,*::before,*::after{-webkit-transition:none!important;-moz-transition:none!important;-o-transition:none!important;-ms-transition:none!important;transition:none!important}")), document.head.appendChild(i), ()=>{
+        window.getComputedStyle(document.body), setTimeout(()=>{
+            document.head.removeChild(i);
+        }, 1);
+    };
+}, E = (e)=>(e || (e = window.matchMedia(I)), e.matches ? "dark" : "light");
+;
+}}),
+"[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+"use strict";
+module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/server/route-modules/app-page/module.compiled.js [app-ssr] (ecmascript)").vendored['react-ssr'].ReactJsxRuntime; //# sourceMappingURL=react-jsx-runtime.js.map
+}}),
+"[project]/node_modules/@auth/core/errors.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/**
+ * Base error class for all Auth.js errors.
+ * It's optimized to be printed in the server logs in a nicely formatted way
+ * via the [`logger.error`](https://authjs.dev/reference/core#logger) option.
+ * @noInheritDoc
+ */ __turbopack_context__.s({
+    "AccessDenied": (()=>AccessDenied),
+    "AccountNotLinked": (()=>AccountNotLinked),
+    "AdapterError": (()=>AdapterError),
+    "AuthError": (()=>AuthError),
+    "CallbackRouteError": (()=>CallbackRouteError),
+    "CredentialsSignin": (()=>CredentialsSignin),
+    "DuplicateConditionalUI": (()=>DuplicateConditionalUI),
+    "EmailSignInError": (()=>EmailSignInError),
+    "ErrorPageLoop": (()=>ErrorPageLoop),
+    "EventError": (()=>EventError),
+    "ExperimentalFeatureNotEnabled": (()=>ExperimentalFeatureNotEnabled),
+    "InvalidCallbackUrl": (()=>InvalidCallbackUrl),
+    "InvalidCheck": (()=>InvalidCheck),
+    "InvalidEndpoints": (()=>InvalidEndpoints),
+    "InvalidProvider": (()=>InvalidProvider),
+    "JWTSessionError": (()=>JWTSessionError),
+    "MissingAdapter": (()=>MissingAdapter),
+    "MissingAdapterMethods": (()=>MissingAdapterMethods),
+    "MissingAuthorize": (()=>MissingAuthorize),
+    "MissingCSRF": (()=>MissingCSRF),
+    "MissingSecret": (()=>MissingSecret),
+    "MissingWebAuthnAutocomplete": (()=>MissingWebAuthnAutocomplete),
+    "OAuthAccountNotLinked": (()=>OAuthAccountNotLinked),
+    "OAuthCallbackError": (()=>OAuthCallbackError),
+    "OAuthProfileParseError": (()=>OAuthProfileParseError),
+    "OAuthSignInError": (()=>OAuthSignInError),
+    "SessionTokenError": (()=>SessionTokenError),
+    "SignInError": (()=>SignInError),
+    "SignOutError": (()=>SignOutError),
+    "UnknownAction": (()=>UnknownAction),
+    "UnsupportedStrategy": (()=>UnsupportedStrategy),
+    "UntrustedHost": (()=>UntrustedHost),
+    "Verification": (()=>Verification),
+    "WebAuthnVerificationError": (()=>WebAuthnVerificationError),
+    "isClientError": (()=>isClientError)
+});
+class AuthError extends Error {
+    /** @internal */ constructor(message, errorOptions){
+        if (message instanceof Error) {
+            super(undefined, {
+                cause: {
+                    err: message,
+                    ...message.cause,
+                    ...errorOptions
+                }
+            });
+        } else if (typeof message === "string") {
+            if (errorOptions instanceof Error) {
+                errorOptions = {
+                    err: errorOptions,
+                    ...errorOptions.cause
+                };
+            }
+            super(message, errorOptions);
+        } else {
+            super(undefined, message);
+        }
+        this.name = this.constructor.name;
+        // @ts-expect-error https://github.com/microsoft/TypeScript/issues/3841
+        this.type = this.constructor.type ?? "AuthError";
+        // @ts-expect-error https://github.com/microsoft/TypeScript/issues/3841
+        this.kind = this.constructor.kind ?? "error";
+        Error.captureStackTrace?.(this, this.constructor);
+        const url = `https://errors.authjs.dev#${this.type.toLowerCase()}`;
+        this.message += `${this.message ? ". " : ""}Read more at ${url}`;
+    }
+}
+class SignInError extends AuthError {
+}
+/** @internal */ SignInError.kind = "signIn";
+class AdapterError extends AuthError {
+}
+AdapterError.type = "AdapterError";
+class AccessDenied extends AuthError {
+}
+AccessDenied.type = "AccessDenied";
+class CallbackRouteError extends AuthError {
+}
+CallbackRouteError.type = "CallbackRouteError";
+class ErrorPageLoop extends AuthError {
+}
+ErrorPageLoop.type = "ErrorPageLoop";
+class EventError extends AuthError {
+}
+EventError.type = "EventError";
+class InvalidCallbackUrl extends AuthError {
+}
+InvalidCallbackUrl.type = "InvalidCallbackUrl";
+class CredentialsSignin extends SignInError {
+    constructor(){
+        super(...arguments);
+        /**
+         * The error code that is set in the `code` query parameter of the redirect URL.
+         *
+         *
+         * ⚠ NOTE: This property is going to be included in the URL, so make sure it does not hint at sensitive errors.
+         *
+         * The full error is always logged on the server, if you need to debug.
+         *
+         * Generally, we don't recommend hinting specifically if the user had either a wrong username or password specifically,
+         * try rather something like "Invalid credentials".
+         */ this.code = "credentials";
+    }
+}
+CredentialsSignin.type = "CredentialsSignin";
+class InvalidEndpoints extends AuthError {
+}
+InvalidEndpoints.type = "InvalidEndpoints";
+class InvalidCheck extends AuthError {
+}
+InvalidCheck.type = "InvalidCheck";
+class JWTSessionError extends AuthError {
+}
+JWTSessionError.type = "JWTSessionError";
+class MissingAdapter extends AuthError {
+}
+MissingAdapter.type = "MissingAdapter";
+class MissingAdapterMethods extends AuthError {
+}
+MissingAdapterMethods.type = "MissingAdapterMethods";
+class MissingAuthorize extends AuthError {
+}
+MissingAuthorize.type = "MissingAuthorize";
+class MissingSecret extends AuthError {
+}
+MissingSecret.type = "MissingSecret";
+class OAuthAccountNotLinked extends SignInError {
+}
+OAuthAccountNotLinked.type = "OAuthAccountNotLinked";
+class OAuthCallbackError extends SignInError {
+}
+OAuthCallbackError.type = "OAuthCallbackError";
+class OAuthProfileParseError extends AuthError {
+}
+OAuthProfileParseError.type = "OAuthProfileParseError";
+class SessionTokenError extends AuthError {
+}
+SessionTokenError.type = "SessionTokenError";
+class OAuthSignInError extends SignInError {
+}
+OAuthSignInError.type = "OAuthSignInError";
+class EmailSignInError extends SignInError {
+}
+EmailSignInError.type = "EmailSignInError";
+class SignOutError extends AuthError {
+}
+SignOutError.type = "SignOutError";
+class UnknownAction extends AuthError {
+}
+UnknownAction.type = "UnknownAction";
+class UnsupportedStrategy extends AuthError {
+}
+UnsupportedStrategy.type = "UnsupportedStrategy";
+class InvalidProvider extends AuthError {
+}
+InvalidProvider.type = "InvalidProvider";
+class UntrustedHost extends AuthError {
+}
+UntrustedHost.type = "UntrustedHost";
+class Verification extends AuthError {
+}
+Verification.type = "Verification";
+class MissingCSRF extends SignInError {
+}
+MissingCSRF.type = "MissingCSRF";
+const clientErrors = new Set([
+    "CredentialsSignin",
+    "OAuthAccountNotLinked",
+    "OAuthCallbackError",
+    "AccessDenied",
+    "Verification",
+    "MissingCSRF",
+    "AccountNotLinked",
+    "WebAuthnVerificationError"
+]);
+function isClientError(error) {
+    if (error instanceof AuthError) return clientErrors.has(error.type);
+    return false;
+}
+class DuplicateConditionalUI extends AuthError {
+}
+DuplicateConditionalUI.type = "DuplicateConditionalUI";
+class MissingWebAuthnAutocomplete extends AuthError {
+}
+MissingWebAuthnAutocomplete.type = "MissingWebAuthnAutocomplete";
+class WebAuthnVerificationError extends AuthError {
+}
+WebAuthnVerificationError.type = "WebAuthnVerificationError";
+class AccountNotLinked extends SignInError {
+}
+AccountNotLinked.type = "AccountNotLinked";
+class ExperimentalFeatureNotEnabled extends AuthError {
+}
+ExperimentalFeatureNotEnabled.type = "ExperimentalFeatureNotEnabled";
+}}),
+"[project]/node_modules/next-auth/lib/client.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "ClientSessionError": (()=>ClientSessionError),
+    "apiBaseUrl": (()=>apiBaseUrl),
+    "fetchData": (()=>fetchData),
+    "now": (()=>now),
+    "parseUrl": (()=>parseUrl),
+    "useOnline": (()=>useOnline)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$auth$2f$core$2f$errors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@auth/core/errors.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+/** @todo */ class ClientFetchError extends __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$auth$2f$core$2f$errors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AuthError"] {
+}
+class ClientSessionError extends __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$auth$2f$core$2f$errors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AuthError"] {
+}
+async function fetchData(path, __NEXTAUTH, logger, req = {}) {
+    const url = `${apiBaseUrl(__NEXTAUTH)}/${path}`;
+    try {
+        const options = {
+            headers: {
+                "Content-Type": "application/json",
+                ...req?.headers?.cookie ? {
+                    cookie: req.headers.cookie
+                } : {}
+            }
+        };
+        if (req?.body) {
+            options.body = JSON.stringify(req.body);
+            options.method = "POST";
+        }
+        const res = await fetch(url, options);
+        const data = await res.json();
+        if (!res.ok) throw data;
+        return data;
+    } catch (error) {
+        logger.error(new ClientFetchError(error.message, error));
+        return null;
+    }
+}
+function apiBaseUrl(__NEXTAUTH) {
+    if (typeof window === "undefined") {
+        // Return absolute path when called server side
+        return `${__NEXTAUTH.baseUrlServer}${__NEXTAUTH.basePathServer}`;
+    }
+    // Return relative path when called client side
+    return __NEXTAUTH.basePath;
+}
+function useOnline() {
+    const [isOnline, setIsOnline] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(typeof navigator !== "undefined" ? navigator.onLine : false);
+    const setOnline = ()=>setIsOnline(true);
+    const setOffline = ()=>setIsOnline(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        window.addEventListener("online", setOnline);
+        window.addEventListener("offline", setOffline);
+        return ()=>{
+            window.removeEventListener("online", setOnline);
+            window.removeEventListener("offline", setOffline);
+        };
+    }, []);
+    return isOnline;
+}
+function now() {
+    return Math.floor(Date.now() / 1000);
+}
+function parseUrl(url) {
+    const defaultUrl = new URL("http://localhost:3000/api/auth");
+    if (url && !url.startsWith("http")) {
+        url = `https://${url}`;
+    }
+    const _url = new URL(url || defaultUrl);
+    const path = (_url.pathname === "/" ? defaultUrl.pathname : _url.pathname)// Remove trailing slash
+    .replace(/\/$/, "");
+    const base = `${_url.origin}${path}`;
+    return {
+        origin: _url.origin,
+        host: _url.host,
+        path,
+        base,
+        toString: ()=>base
+    };
+}
+}}),
+"[project]/node_modules/next-auth/react.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/**
+ *
+ * NextAuth.js is the official integration of Auth.js for Next.js applications. It supports both
+ * [Client Components](https://nextjs.org/docs/app/building-your-application/rendering/client-components) and the
+ * [Pages Router](https://nextjs.org/docs/pages). It includes methods for signing in, signing out, hooks, and a React
+ * Context provider to wrap your application and make session data available anywhere.
+ *
+ * For use in [Server Actions](https://nextjs.org/docs/app/api-reference/functions/server-actions), check out [these methods](https://authjs.dev/guides/upgrade-to-v5#methods)
+ *
+ * @module react
+ */ __turbopack_context__.s({
+    "SessionContext": (()=>SessionContext),
+    "SessionProvider": (()=>SessionProvider),
+    "__NEXTAUTH": (()=>__NEXTAUTH),
+    "getCsrfToken": (()=>getCsrfToken),
+    "getProviders": (()=>getProviders),
+    "getSession": (()=>getSession),
+    "signIn": (()=>signIn),
+    "signOut": (()=>signOut),
+    "useSession": (()=>useSession)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/lib/client.js [app-ssr] (ecmascript)");
+"use client";
+;
+;
+;
+const __NEXTAUTH = {
+    baseUrl: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["parseUrl"])(process.env.NEXTAUTH_URL ?? process.env.VERCEL_URL).origin,
+    basePath: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["parseUrl"])(process.env.NEXTAUTH_URL).path,
+    baseUrlServer: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["parseUrl"])(process.env.NEXTAUTH_URL_INTERNAL ?? process.env.NEXTAUTH_URL ?? process.env.VERCEL_URL).origin,
+    basePathServer: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["parseUrl"])(process.env.NEXTAUTH_URL_INTERNAL ?? process.env.NEXTAUTH_URL).path,
+    _lastSync: 0,
+    _session: undefined,
+    _getSession: ()=>{}
+};
+// https://github.com/nextauthjs/next-auth/pull/10762
+let broadcastChannel = null;
+function getNewBroadcastChannel() {
+    if (typeof BroadcastChannel === "undefined") {
+        return {
+            postMessage: ()=>{},
+            addEventListener: ()=>{},
+            removeEventListener: ()=>{},
+            name: "next-auth",
+            onmessage: null,
+            onmessageerror: null,
+            close: ()=>{},
+            dispatchEvent: ()=>false
+        };
+    }
+    return new BroadcastChannel("next-auth");
+}
+function broadcast() {
+    if (broadcastChannel === null) {
+        broadcastChannel = getNewBroadcastChannel();
+    }
+    return broadcastChannel;
+}
+// TODO:
+const logger = {
+    debug: console.debug,
+    error: console.error,
+    warn: console.warn
+};
+const SessionContext = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"]?.(undefined);
+function useSession(options) {
+    if (!SessionContext) {
+        throw new Error("React Context is unavailable in Server Components");
+    }
+    // @ts-expect-error Satisfy TS if branch on line below
+    const value = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(SessionContext);
+    if (!value && ("TURBOPACK compile-time value", "development") !== "production") {
+        throw new Error("[next-auth]: `useSession` must be wrapped in a <SessionProvider />");
+    }
+    const { required, onUnauthenticated } = options ?? {};
+    const requiredAndNotLoading = required && value.status === "unauthenticated";
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (requiredAndNotLoading) {
+            const url = `${__NEXTAUTH.basePath}/signin?${new URLSearchParams({
+                error: "SessionRequired",
+                callbackUrl: window.location.href
+            })}`;
+            if (onUnauthenticated) onUnauthenticated();
+            else window.location.href = url;
+        }
+    }, [
+        requiredAndNotLoading,
+        onUnauthenticated
+    ]);
+    if (requiredAndNotLoading) {
+        return {
+            data: value.data,
+            update: value.update,
+            status: "loading"
+        };
+    }
+    return value;
+}
+async function getSession(params) {
+    const session = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["fetchData"])("session", __NEXTAUTH, logger, params);
+    if (params?.broadcast ?? true) {
+        // https://github.com/nextauthjs/next-auth/pull/11470
+        getNewBroadcastChannel().postMessage({
+            event: "session",
+            data: {
+                trigger: "getSession"
+            }
+        });
+    }
+    return session;
+}
+async function getCsrfToken() {
+    const response = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["fetchData"])("csrf", __NEXTAUTH, logger);
+    return response?.csrfToken ?? "";
+}
+async function getProviders() {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["fetchData"])("providers", __NEXTAUTH, logger);
+}
+async function signIn(provider, options, authorizationParams) {
+    const { callbackUrl, ...rest } = options ?? {};
+    const { redirect = true, redirectTo = callbackUrl ?? window.location.href, ...signInParams } = rest;
+    const baseUrl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["apiBaseUrl"])(__NEXTAUTH);
+    const providers = await getProviders();
+    if (!providers) {
+        const url = `${baseUrl}/error`;
+        window.location.href = url;
+        return; // TODO: Return error if `redirect: false`
+    }
+    if (!provider || !providers[provider]) {
+        const url = `${baseUrl}/signin?${new URLSearchParams({
+            callbackUrl: redirectTo
+        })}`;
+        window.location.href = url;
+        return; // TODO: Return error if `redirect: false`
+    }
+    const providerType = providers[provider].type;
+    if (providerType === "webauthn") {
+        // TODO: Add docs link with explanation
+        throw new TypeError([
+            `Provider id "${provider}" refers to a WebAuthn provider.`,
+            'Please use `import { signIn } from "next-auth/webauthn"` instead.'
+        ].join("\n"));
+    }
+    const signInUrl = `${baseUrl}/${providerType === "credentials" ? "callback" : "signin"}/${provider}`;
+    const csrfToken = await getCsrfToken();
+    const res = await fetch(`${signInUrl}?${new URLSearchParams(authorizationParams)}`, {
+        method: "post",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-Auth-Return-Redirect": "1"
+        },
+        body: new URLSearchParams({
+            ...signInParams,
+            csrfToken,
+            callbackUrl: redirectTo
+        })
+    });
+    const data = await res.json();
+    if (redirect) {
+        const url = data.url ?? redirectTo;
+        window.location.href = url;
+        // If url contains a hash, the browser does not reload the page. We reload manually
+        if (url.includes("#")) window.location.reload();
+        return;
+    }
+    const error = new URL(data.url).searchParams.get("error") ?? undefined;
+    const code = new URL(data.url).searchParams.get("code") ?? undefined;
+    if (res.ok) {
+        await __NEXTAUTH._getSession({
+            event: "storage"
+        });
+    }
+    return {
+        error,
+        code,
+        status: res.status,
+        ok: res.ok,
+        url: error ? null : data.url
+    };
+}
+async function signOut(options) {
+    const { redirect = true, redirectTo = options?.callbackUrl ?? window.location.href } = options ?? {};
+    const baseUrl = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["apiBaseUrl"])(__NEXTAUTH);
+    const csrfToken = await getCsrfToken();
+    const res = await fetch(`${baseUrl}/signout`, {
+        method: "post",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-Auth-Return-Redirect": "1"
+        },
+        body: new URLSearchParams({
+            csrfToken,
+            callbackUrl: redirectTo
+        })
+    });
+    const data = await res.json();
+    broadcast().postMessage({
+        event: "session",
+        data: {
+            trigger: "signout"
+        }
+    });
+    if (redirect) {
+        const url = data.url ?? redirectTo;
+        window.location.href = url;
+        // If url contains a hash, the browser does not reload the page. We reload manually
+        if (url.includes("#")) window.location.reload();
+        return;
+    }
+    await __NEXTAUTH._getSession({
+        event: "storage"
+    });
+    return data;
+}
+function SessionProvider(props) {
+    if (!SessionContext) {
+        throw new Error("React Context is unavailable in Server Components");
+    }
+    const { children, basePath, refetchInterval, refetchWhenOffline } = props;
+    if (basePath) __NEXTAUTH.basePath = basePath;
+    /**
+     * If session was `null`, there was an attempt to fetch it,
+     * but it failed, but we still treat it as a valid initial value.
+     */ const hasInitialSession = props.session !== undefined;
+    /** If session was passed, initialize as already synced */ __NEXTAUTH._lastSync = hasInitialSession ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["now"])() : 0;
+    const [session, setSession] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>{
+        if (hasInitialSession) __NEXTAUTH._session = props.session;
+        return props.session;
+    });
+    /** If session was passed, initialize as not loading */ const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(!hasInitialSession);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        __NEXTAUTH._getSession = async ({ event } = {})=>{
+            try {
+                const storageEvent = event === "storage";
+                // We should always update if we don't have a client session yet
+                // or if there are events from other tabs/windows
+                if (storageEvent || __NEXTAUTH._session === undefined) {
+                    __NEXTAUTH._lastSync = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["now"])();
+                    __NEXTAUTH._session = await getSession({
+                        broadcast: !storageEvent
+                    });
+                    setSession(__NEXTAUTH._session);
+                    return;
+                }
+                if (// If there is no time defined for when a session should be considered
+                // stale, then it's okay to use the value we have until an event is
+                // triggered which updates it
+                !event || // If the client doesn't have a session then we don't need to call
+                // the server to check if it does (if they have signed in via another
+                // tab or window that will come through as a "stroage" event
+                // event anyway)
+                __NEXTAUTH._session === null || // Bail out early if the client session is not stale yet
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["now"])() < __NEXTAUTH._lastSync) {
+                    return;
+                }
+                // An event or session staleness occurred, update the client session.
+                __NEXTAUTH._lastSync = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["now"])();
+                __NEXTAUTH._session = await getSession();
+                setSession(__NEXTAUTH._session);
+            } catch (error) {
+                logger.error(new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ClientSessionError"](error.message, error));
+            } finally{
+                setLoading(false);
+            }
+        };
+        __NEXTAUTH._getSession();
+        return ()=>{
+            __NEXTAUTH._lastSync = 0;
+            __NEXTAUTH._session = undefined;
+            __NEXTAUTH._getSession = ()=>{};
+        };
+    }, []);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const handle = ()=>__NEXTAUTH._getSession({
+                event: "storage"
+            });
+        // Listen for storage events and update session if event fired from
+        // another window (but suppress firing another event to avoid a loop)
+        // Fetch new session data but tell it to not to fire another event to
+        // avoid an infinite loop.
+        // Note: We could pass session data through and do something like
+        // `setData(message.data)` but that can cause problems depending
+        // on how the session object is being used in the client; it is
+        // more robust to have each window/tab fetch it's own copy of the
+        // session object rather than share it across instances.
+        broadcast().addEventListener("message", handle);
+        return ()=>broadcast().removeEventListener("message", handle);
+    }, []);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const { refetchOnWindowFocus = true } = props;
+        // Listen for when the page is visible, if the user switches tabs
+        // and makes our tab visible again, re-fetch the session, but only if
+        // this feature is not disabled.
+        const visibilityHandler = ()=>{
+            if (refetchOnWindowFocus && document.visibilityState === "visible") __NEXTAUTH._getSession({
+                event: "visibilitychange"
+            });
+        };
+        document.addEventListener("visibilitychange", visibilityHandler, false);
+        return ()=>document.removeEventListener("visibilitychange", visibilityHandler, false);
+    }, [
+        props.refetchOnWindowFocus
+    ]);
+    const isOnline = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useOnline"])();
+    // TODO: Flip this behavior in next major version
+    const shouldRefetch = refetchWhenOffline !== false || isOnline;
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (refetchInterval && shouldRefetch) {
+            const refetchIntervalTimer = setInterval(()=>{
+                if (__NEXTAUTH._session) {
+                    __NEXTAUTH._getSession({
+                        event: "poll"
+                    });
+                }
+            }, refetchInterval * 1000);
+            return ()=>clearInterval(refetchIntervalTimer);
+        }
+    }, [
+        refetchInterval,
+        shouldRefetch
+    ]);
+    const value = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>({
+            data: session,
+            status: loading ? "loading" : session ? "authenticated" : "unauthenticated",
+            async update (data) {
+                if (loading) return;
+                setLoading(true);
+                const newSession = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$lib$2f$client$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["fetchData"])("session", __NEXTAUTH, logger, typeof data === "undefined" ? undefined : {
+                    body: {
+                        csrfToken: await getCsrfToken(),
+                        data
+                    }
+                });
+                setLoading(false);
+                if (newSession) {
+                    setSession(newSession);
+                    broadcast().postMessage({
+                        event: "session",
+                        data: {
+                            trigger: "getSession"
+                        }
+                    });
+                }
+                return newSession;
+            }
+        }), [
+        session,
+        loading
+    ]);
+    return(// @ts-expect-error
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsx"])(SessionContext.Provider, {
+        value: value,
+        children: children
+    }));
+}
+}}),
+"[project]/node_modules/@ant-design/icons-svg/es/asn/SunFilled.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+// This icon file is generated automatically.
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var SunFilled = {
+    "icon": {
+        "tag": "svg",
+        "attrs": {
+            "fill-rule": "evenodd",
+            "viewBox": "64 64 896 896",
+            "focusable": "false"
+        },
+        "children": [
+            {
+                "tag": "path",
+                "attrs": {
+                    "d": "M548 818v126a16 16 0 01-16 16h-40a16 16 0 01-16-16V818c15.85 1.64 27.84 2.46 36 2.46 8.15 0 20.16-.82 36-2.46m205.25-115.66l89.1 89.1a16 16 0 010 22.62l-28.29 28.29a16 16 0 01-22.62 0l-89.1-89.1c12.37-10.04 21.43-17.95 27.2-23.71 5.76-5.77 13.67-14.84 23.71-27.2m-482.5 0c10.04 12.36 17.95 21.43 23.71 27.2 5.77 5.76 14.84 13.67 27.2 23.71l-89.1 89.1a16 16 0 01-22.62 0l-28.29-28.29a16 16 0 010-22.63zM512 278c129.24 0 234 104.77 234 234S641.24 746 512 746 278 641.24 278 512s104.77-234 234-234M206 476c-1.64 15.85-2.46 27.84-2.46 36 0 8.15.82 20.16 2.46 36H80a16 16 0 01-16-16v-40a16 16 0 0116-16zm738 0a16 16 0 0116 16v40a16 16 0 01-16 16H818c1.64-15.85 2.46-27.84 2.46-36 0-8.15-.82-20.16-2.46-36zM814.06 180.65l28.29 28.29a16 16 0 010 22.63l-89.1 89.09c-10.04-12.37-17.95-21.43-23.71-27.2-5.77-5.76-14.84-13.67-27.2-23.71l89.1-89.1a16 16 0 0122.62 0m-581.5 0l89.1 89.1c-12.37 10.04-21.43 17.95-27.2 23.71-5.76 5.77-13.67 14.84-23.71 27.2l-89.1-89.1a16 16 0 010-22.62l28.29-28.29a16 16 0 0122.62 0M532 64a16 16 0 0116 16v126c-15.85-1.64-27.84-2.46-36-2.46-8.15 0-20.16.82-36 2.46V80a16 16 0 0116-16z"
+                }
+            }
+        ]
+    },
+    "name": "sun",
+    "theme": "filled"
+};
+const __TURBOPACK__default__export__ = SunFilled;
+}}),
+"[project]/node_modules/classnames/index.js [app-ssr] (ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/ /* global define */ (function() {
+    'use strict';
+    var hasOwn = {}.hasOwnProperty;
+    function classNames() {
+        var classes = '';
+        for(var i = 0; i < arguments.length; i++){
+            var arg = arguments[i];
+            if (arg) {
+                classes = appendClass(classes, parseValue(arg));
+            }
+        }
+        return classes;
+    }
+    function parseValue(arg) {
+        if (typeof arg === 'string' || typeof arg === 'number') {
+            return arg;
+        }
+        if (typeof arg !== 'object') {
+            return '';
+        }
+        if (Array.isArray(arg)) {
+            return classNames.apply(null, arg);
+        }
+        if (arg.toString !== Object.prototype.toString && !arg.toString.toString().includes('[native code]')) {
+            return arg.toString();
+        }
+        var classes = '';
+        for(var key in arg){
+            if (hasOwn.call(arg, key) && arg[key]) {
+                classes = appendClass(classes, key);
+            }
+        }
+        return classes;
+    }
+    function appendClass(value, newClass) {
+        if (!newClass) {
+            return value;
+        }
+        if (value) {
+            return value + ' ' + newClass;
+        }
+        return value + newClass;
+    }
+    if (("TURBOPACK compile-time value", "object") !== 'undefined' && module.exports) {
+        classNames.default = classNames;
+        module.exports = classNames;
+    } else if (typeof define === 'function' && typeof define.amd === 'object' && define.amd) {
+        // register as 'classnames', consistent with npm package name
+        ((r)=>r !== undefined && __turbopack_context__.v(r))(function() {
+            return classNames;
+        }());
+    } else {
+        window.classNames = classNames;
+    }
+})();
+}}),
+"[project]/node_modules/@ant-design/fast-color/es/presetColors.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+// 36 Hex to reduce the size of the file
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+const __TURBOPACK__default__export__ = {
+    aliceblue: '9ehhb',
+    antiquewhite: '9sgk7',
+    aqua: '1ekf',
+    aquamarine: '4zsno',
+    azure: '9eiv3',
+    beige: '9lhp8',
+    bisque: '9zg04',
+    black: '0',
+    blanchedalmond: '9zhe5',
+    blue: '73',
+    blueviolet: '5e31e',
+    brown: '6g016',
+    burlywood: '8ouiv',
+    cadetblue: '3qba8',
+    chartreuse: '4zshs',
+    chocolate: '87k0u',
+    coral: '9yvyo',
+    cornflowerblue: '3xael',
+    cornsilk: '9zjz0',
+    crimson: '8l4xo',
+    cyan: '1ekf',
+    darkblue: '3v',
+    darkcyan: 'rkb',
+    darkgoldenrod: '776yz',
+    darkgray: '6mbhl',
+    darkgreen: 'jr4',
+    darkgrey: '6mbhl',
+    darkkhaki: '7ehkb',
+    darkmagenta: '5f91n',
+    darkolivegreen: '3bzfz',
+    darkorange: '9yygw',
+    darkorchid: '5z6x8',
+    darkred: '5f8xs',
+    darksalmon: '9441m',
+    darkseagreen: '5lwgf',
+    darkslateblue: '2th1n',
+    darkslategray: '1ugcv',
+    darkslategrey: '1ugcv',
+    darkturquoise: '14up',
+    darkviolet: '5rw7n',
+    deeppink: '9yavn',
+    deepskyblue: '11xb',
+    dimgray: '442g9',
+    dimgrey: '442g9',
+    dodgerblue: '16xof',
+    firebrick: '6y7tu',
+    floralwhite: '9zkds',
+    forestgreen: '1cisi',
+    fuchsia: '9y70f',
+    gainsboro: '8m8kc',
+    ghostwhite: '9pq0v',
+    goldenrod: '8j4f4',
+    gold: '9zda8',
+    gray: '50i2o',
+    green: 'pa8',
+    greenyellow: '6senj',
+    grey: '50i2o',
+    honeydew: '9eiuo',
+    hotpink: '9yrp0',
+    indianred: '80gnw',
+    indigo: '2xcoy',
+    ivory: '9zldc',
+    khaki: '9edu4',
+    lavenderblush: '9ziet',
+    lavender: '90c8q',
+    lawngreen: '4vk74',
+    lemonchiffon: '9zkct',
+    lightblue: '6s73a',
+    lightcoral: '9dtog',
+    lightcyan: '8s1rz',
+    lightgoldenrodyellow: '9sjiq',
+    lightgray: '89jo3',
+    lightgreen: '5nkwg',
+    lightgrey: '89jo3',
+    lightpink: '9z6wx',
+    lightsalmon: '9z2ii',
+    lightseagreen: '19xgq',
+    lightskyblue: '5arju',
+    lightslategray: '4nwk9',
+    lightslategrey: '4nwk9',
+    lightsteelblue: '6wau6',
+    lightyellow: '9zlcw',
+    lime: '1edc',
+    limegreen: '1zcxe',
+    linen: '9shk6',
+    magenta: '9y70f',
+    maroon: '4zsow',
+    mediumaquamarine: '40eju',
+    mediumblue: '5p',
+    mediumorchid: '79qkz',
+    mediumpurple: '5r3rv',
+    mediumseagreen: '2d9ip',
+    mediumslateblue: '4tcku',
+    mediumspringgreen: '1di2',
+    mediumturquoise: '2uabw',
+    mediumvioletred: '7rn9h',
+    midnightblue: 'z980',
+    mintcream: '9ljp6',
+    mistyrose: '9zg0x',
+    moccasin: '9zfzp',
+    navajowhite: '9zest',
+    navy: '3k',
+    oldlace: '9wq92',
+    olive: '50hz4',
+    olivedrab: '472ub',
+    orange: '9z3eo',
+    orangered: '9ykg0',
+    orchid: '8iu3a',
+    palegoldenrod: '9bl4a',
+    palegreen: '5yw0o',
+    paleturquoise: '6v4ku',
+    palevioletred: '8k8lv',
+    papayawhip: '9zi6t',
+    peachpuff: '9ze0p',
+    peru: '80oqn',
+    pink: '9z8wb',
+    plum: '8nba5',
+    powderblue: '6wgdi',
+    purple: '4zssg',
+    rebeccapurple: '3zk49',
+    red: '9y6tc',
+    rosybrown: '7cv4f',
+    royalblue: '2jvtt',
+    saddlebrown: '5fmkz',
+    salmon: '9rvci',
+    sandybrown: '9jn1c',
+    seagreen: '1tdnb',
+    seashell: '9zje6',
+    sienna: '6973h',
+    silver: '7ir40',
+    skyblue: '5arjf',
+    slateblue: '45e4t',
+    slategray: '4e100',
+    slategrey: '4e100',
+    snow: '9zke2',
+    springgreen: '1egv',
+    steelblue: '2r1kk',
+    tan: '87yx8',
+    teal: 'pds',
+    thistle: '8ggk8',
+    tomato: '9yqfb',
+    turquoise: '2j4r4',
+    violet: '9b10u',
+    wheat: '9ld4j',
+    white: '9zldr',
+    whitesmoke: '9lhpx',
+    yellow: '9zl6o',
+    yellowgreen: '61fzm'
+};
+}}),
+"[project]/node_modules/@ant-design/fast-color/es/FastColor.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "FastColor": (()=>FastColor)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$presetColors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/presetColors.js [app-ssr] (ecmascript)");
+;
+const round = Math.round;
+/**
+ * Support format, alpha unit will check the % mark:
+ * - rgba(102, 204, 255, .5)      -> [102, 204, 255, 0.5]
+ * - rgb(102 204 255 / .5)        -> [102, 204, 255, 0.5]
+ * - rgb(100%, 50%, 0% / 50%)     -> [255, 128, 0, 0.5]
+ * - hsl(270, 60, 40, .5)         -> [270, 60, 40, 0.5]
+ * - hsl(270deg 60% 40% / 50%)   -> [270, 60, 40, 0.5]
+ *
+ * When `base` is provided, the percentage value will be divided by `base`.
+ */ function splitColorStr(str, parseNum) {
+    const match = str// Remove str before `(`
+    .replace(/^[^(]*\((.*)/, '$1')// Remove str after `)`
+    .replace(/\).*/, '').match(/\d*\.?\d+%?/g) || [];
+    const numList = match.map((item)=>parseFloat(item));
+    for(let i = 0; i < 3; i += 1){
+        numList[i] = parseNum(numList[i] || 0, match[i] || '', i);
+    }
+    // For alpha. 50% should be 0.5
+    if (match[3]) {
+        numList[3] = match[3].includes('%') ? numList[3] / 100 : numList[3];
+    } else {
+        // By default, alpha is 1
+        numList[3] = 1;
+    }
+    return numList;
+}
+const parseHSVorHSL = (num, _, index)=>index === 0 ? num : num / 100;
+/** round and limit number to integer between 0-255 */ function limitRange(value, max) {
+    const mergedMax = max || 255;
+    if (value > mergedMax) {
+        return mergedMax;
+    }
+    if (value < 0) {
+        return 0;
+    }
+    return value;
+}
+class FastColor {
+    /**
+   * All FastColor objects are valid. So isValid is always true. This property is kept to be compatible with TinyColor.
+   */ isValid = true;
+    /**
+   * Red, R in RGB
+   */ r = 0;
+    /**
+   * Green, G in RGB
+   */ g = 0;
+    /**
+   * Blue, B in RGB
+   */ b = 0;
+    /**
+   * Alpha/Opacity, A in RGBA/HSLA
+   */ a = 1;
+    // HSV privates
+    _h;
+    _s;
+    _l;
+    _v;
+    // intermediate variables to calculate HSL/HSV
+    _max;
+    _min;
+    _brightness;
+    constructor(input){
+        /**
+     * Always check 3 char in the object to determine the format.
+     * We not use function in check to save bundle size.
+     * e.g. 'rgb' -> { r: 0, g: 0, b: 0 }.
+     */ function matchFormat(str) {
+            return str[0] in input && str[1] in input && str[2] in input;
+        }
+        if (!input) {
+        // Do nothing since already initialized
+        } else if (typeof input === 'string') {
+            const trimStr = input.trim();
+            function matchPrefix(prefix) {
+                return trimStr.startsWith(prefix);
+            }
+            if (/^#?[A-F\d]{3,8}$/i.test(trimStr)) {
+                this.fromHexString(trimStr);
+            } else if (matchPrefix('rgb')) {
+                this.fromRgbString(trimStr);
+            } else if (matchPrefix('hsl')) {
+                this.fromHslString(trimStr);
+            } else if (matchPrefix('hsv') || matchPrefix('hsb')) {
+                this.fromHsvString(trimStr);
+            } else {
+                // From preset color
+                const presetColor = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$presetColors$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"][trimStr.toLowerCase()];
+                if (presetColor) {
+                    this.fromHexString(// Convert 36 hex to 16 hex
+                    parseInt(presetColor, 36).toString(16).padStart(6, '0'));
+                }
+            }
+        } else if (input instanceof FastColor) {
+            this.r = input.r;
+            this.g = input.g;
+            this.b = input.b;
+            this.a = input.a;
+            this._h = input._h;
+            this._s = input._s;
+            this._l = input._l;
+            this._v = input._v;
+        } else if (matchFormat('rgb')) {
+            this.r = limitRange(input.r);
+            this.g = limitRange(input.g);
+            this.b = limitRange(input.b);
+            this.a = typeof input.a === 'number' ? limitRange(input.a, 1) : 1;
+        } else if (matchFormat('hsl')) {
+            this.fromHsl(input);
+        } else if (matchFormat('hsv')) {
+            this.fromHsv(input);
+        } else {
+            throw new Error('@ant-design/fast-color: unsupported input ' + JSON.stringify(input));
+        }
+    }
+    // ======================= Setter =======================
+    setR(value) {
+        return this._sc('r', value);
+    }
+    setG(value) {
+        return this._sc('g', value);
+    }
+    setB(value) {
+        return this._sc('b', value);
+    }
+    setA(value) {
+        return this._sc('a', value, 1);
+    }
+    setHue(value) {
+        const hsv = this.toHsv();
+        hsv.h = value;
+        return this._c(hsv);
+    }
+    // ======================= Getter =======================
+    /**
+   * Returns the perceived luminance of a color, from 0-1.
+   * @see http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+   */ getLuminance() {
+        function adjustGamma(raw) {
+            const val = raw / 255;
+            return val <= 0.03928 ? val / 12.92 : Math.pow((val + 0.055) / 1.055, 2.4);
+        }
+        const R = adjustGamma(this.r);
+        const G = adjustGamma(this.g);
+        const B = adjustGamma(this.b);
+        return 0.2126 * R + 0.7152 * G + 0.0722 * B;
+    }
+    getHue() {
+        if (typeof this._h === 'undefined') {
+            const delta = this.getMax() - this.getMin();
+            if (delta === 0) {
+                this._h = 0;
+            } else {
+                this._h = round(60 * (this.r === this.getMax() ? (this.g - this.b) / delta + (this.g < this.b ? 6 : 0) : this.g === this.getMax() ? (this.b - this.r) / delta + 2 : (this.r - this.g) / delta + 4));
+            }
+        }
+        return this._h;
+    }
+    getSaturation() {
+        if (typeof this._s === 'undefined') {
+            const delta = this.getMax() - this.getMin();
+            if (delta === 0) {
+                this._s = 0;
+            } else {
+                this._s = delta / this.getMax();
+            }
+        }
+        return this._s;
+    }
+    getLightness() {
+        if (typeof this._l === 'undefined') {
+            this._l = (this.getMax() + this.getMin()) / 510;
+        }
+        return this._l;
+    }
+    getValue() {
+        if (typeof this._v === 'undefined') {
+            this._v = this.getMax() / 255;
+        }
+        return this._v;
+    }
+    /**
+   * Returns the perceived brightness of the color, from 0-255.
+   * Note: this is not the b of HSB
+   * @see http://www.w3.org/TR/AERT#color-contrast
+   */ getBrightness() {
+        if (typeof this._brightness === 'undefined') {
+            this._brightness = (this.r * 299 + this.g * 587 + this.b * 114) / 1000;
+        }
+        return this._brightness;
+    }
+    // ======================== Func ========================
+    darken(amount = 10) {
+        const h = this.getHue();
+        const s = this.getSaturation();
+        let l = this.getLightness() - amount / 100;
+        if (l < 0) {
+            l = 0;
+        }
+        return this._c({
+            h,
+            s,
+            l,
+            a: this.a
+        });
+    }
+    lighten(amount = 10) {
+        const h = this.getHue();
+        const s = this.getSaturation();
+        let l = this.getLightness() + amount / 100;
+        if (l > 1) {
+            l = 1;
+        }
+        return this._c({
+            h,
+            s,
+            l,
+            a: this.a
+        });
+    }
+    /**
+   * Mix the current color a given amount with another color, from 0 to 100.
+   * 0 means no mixing (return current color).
+   */ mix(input, amount = 50) {
+        const color = this._c(input);
+        const p = amount / 100;
+        const calc = (key)=>(color[key] - this[key]) * p + this[key];
+        const rgba = {
+            r: round(calc('r')),
+            g: round(calc('g')),
+            b: round(calc('b')),
+            a: round(calc('a') * 100) / 100
+        };
+        return this._c(rgba);
+    }
+    /**
+   * Mix the color with pure white, from 0 to 100.
+   * Providing 0 will do nothing, providing 100 will always return white.
+   */ tint(amount = 10) {
+        return this.mix({
+            r: 255,
+            g: 255,
+            b: 255,
+            a: 1
+        }, amount);
+    }
+    /**
+   * Mix the color with pure black, from 0 to 100.
+   * Providing 0 will do nothing, providing 100 will always return black.
+   */ shade(amount = 10) {
+        return this.mix({
+            r: 0,
+            g: 0,
+            b: 0,
+            a: 1
+        }, amount);
+    }
+    onBackground(background) {
+        const bg = this._c(background);
+        const alpha = this.a + bg.a * (1 - this.a);
+        const calc = (key)=>{
+            return round((this[key] * this.a + bg[key] * bg.a * (1 - this.a)) / alpha);
+        };
+        return this._c({
+            r: calc('r'),
+            g: calc('g'),
+            b: calc('b'),
+            a: alpha
+        });
+    }
+    // ======================= Status =======================
+    isDark() {
+        return this.getBrightness() < 128;
+    }
+    isLight() {
+        return this.getBrightness() >= 128;
+    }
+    // ======================== MISC ========================
+    equals(other) {
+        return this.r === other.r && this.g === other.g && this.b === other.b && this.a === other.a;
+    }
+    clone() {
+        return this._c(this);
+    }
+    // ======================= Format =======================
+    toHexString() {
+        let hex = '#';
+        const rHex = (this.r || 0).toString(16);
+        hex += rHex.length === 2 ? rHex : '0' + rHex;
+        const gHex = (this.g || 0).toString(16);
+        hex += gHex.length === 2 ? gHex : '0' + gHex;
+        const bHex = (this.b || 0).toString(16);
+        hex += bHex.length === 2 ? bHex : '0' + bHex;
+        if (typeof this.a === 'number' && this.a >= 0 && this.a < 1) {
+            const aHex = round(this.a * 255).toString(16);
+            hex += aHex.length === 2 ? aHex : '0' + aHex;
+        }
+        return hex;
+    }
+    /** CSS support color pattern */ toHsl() {
+        return {
+            h: this.getHue(),
+            s: this.getSaturation(),
+            l: this.getLightness(),
+            a: this.a
+        };
+    }
+    /** CSS support color pattern */ toHslString() {
+        const h = this.getHue();
+        const s = round(this.getSaturation() * 100);
+        const l = round(this.getLightness() * 100);
+        return this.a !== 1 ? `hsla(${h},${s}%,${l}%,${this.a})` : `hsl(${h},${s}%,${l}%)`;
+    }
+    /** Same as toHsb */ toHsv() {
+        return {
+            h: this.getHue(),
+            s: this.getSaturation(),
+            v: this.getValue(),
+            a: this.a
+        };
+    }
+    toRgb() {
+        return {
+            r: this.r,
+            g: this.g,
+            b: this.b,
+            a: this.a
+        };
+    }
+    toRgbString() {
+        return this.a !== 1 ? `rgba(${this.r},${this.g},${this.b},${this.a})` : `rgb(${this.r},${this.g},${this.b})`;
+    }
+    toString() {
+        return this.toRgbString();
+    }
+    // ====================== Privates ======================
+    /** Return a new FastColor object with one channel changed */ _sc(rgb, value, max) {
+        const clone = this.clone();
+        clone[rgb] = limitRange(value, max);
+        return clone;
+    }
+    _c(input) {
+        return new this.constructor(input);
+    }
+    getMax() {
+        if (typeof this._max === 'undefined') {
+            this._max = Math.max(this.r, this.g, this.b);
+        }
+        return this._max;
+    }
+    getMin() {
+        if (typeof this._min === 'undefined') {
+            this._min = Math.min(this.r, this.g, this.b);
+        }
+        return this._min;
+    }
+    fromHexString(trimStr) {
+        const withoutPrefix = trimStr.replace('#', '');
+        function connectNum(index1, index2) {
+            return parseInt(withoutPrefix[index1] + withoutPrefix[index2 || index1], 16);
+        }
+        if (withoutPrefix.length < 6) {
+            // #rgb or #rgba
+            this.r = connectNum(0);
+            this.g = connectNum(1);
+            this.b = connectNum(2);
+            this.a = withoutPrefix[3] ? connectNum(3) / 255 : 1;
+        } else {
+            // #rrggbb or #rrggbbaa
+            this.r = connectNum(0, 1);
+            this.g = connectNum(2, 3);
+            this.b = connectNum(4, 5);
+            this.a = withoutPrefix[6] ? connectNum(6, 7) / 255 : 1;
+        }
+    }
+    fromHsl({ h, s, l, a }) {
+        this._h = h % 360;
+        this._s = s;
+        this._l = l;
+        this.a = typeof a === 'number' ? a : 1;
+        if (s <= 0) {
+            const rgb = round(l * 255);
+            this.r = rgb;
+            this.g = rgb;
+            this.b = rgb;
+        }
+        let r = 0, g = 0, b = 0;
+        const huePrime = h / 60;
+        const chroma = (1 - Math.abs(2 * l - 1)) * s;
+        const secondComponent = chroma * (1 - Math.abs(huePrime % 2 - 1));
+        if (huePrime >= 0 && huePrime < 1) {
+            r = chroma;
+            g = secondComponent;
+        } else if (huePrime >= 1 && huePrime < 2) {
+            r = secondComponent;
+            g = chroma;
+        } else if (huePrime >= 2 && huePrime < 3) {
+            g = chroma;
+            b = secondComponent;
+        } else if (huePrime >= 3 && huePrime < 4) {
+            g = secondComponent;
+            b = chroma;
+        } else if (huePrime >= 4 && huePrime < 5) {
+            r = secondComponent;
+            b = chroma;
+        } else if (huePrime >= 5 && huePrime < 6) {
+            r = chroma;
+            b = secondComponent;
+        }
+        const lightnessModification = l - chroma / 2;
+        this.r = round((r + lightnessModification) * 255);
+        this.g = round((g + lightnessModification) * 255);
+        this.b = round((b + lightnessModification) * 255);
+    }
+    fromHsv({ h, s, v, a }) {
+        this._h = h % 360;
+        this._s = s;
+        this._v = v;
+        this.a = typeof a === 'number' ? a : 1;
+        const vv = round(v * 255);
+        this.r = vv;
+        this.g = vv;
+        this.b = vv;
+        if (s <= 0) {
+            return;
+        }
+        const hh = h / 60;
+        const i = Math.floor(hh);
+        const ff = hh - i;
+        const p = round(v * (1.0 - s) * 255);
+        const q = round(v * (1.0 - s * ff) * 255);
+        const t = round(v * (1.0 - s * (1.0 - ff)) * 255);
+        switch(i){
+            case 0:
+                this.g = t;
+                this.b = p;
+                break;
+            case 1:
+                this.r = q;
+                this.b = p;
+                break;
+            case 2:
+                this.r = p;
+                this.b = t;
+                break;
+            case 3:
+                this.r = p;
+                this.g = q;
+                break;
+            case 4:
+                this.r = t;
+                this.g = p;
+                break;
+            case 5:
+            default:
+                this.g = p;
+                this.b = q;
+                break;
+        }
+    }
+    fromHsvString(trimStr) {
+        const cells = splitColorStr(trimStr, parseHSVorHSL);
+        this.fromHsv({
+            h: cells[0],
+            s: cells[1],
+            v: cells[2],
+            a: cells[3]
+        });
+    }
+    fromHslString(trimStr) {
+        const cells = splitColorStr(trimStr, parseHSVorHSL);
+        this.fromHsl({
+            h: cells[0],
+            s: cells[1],
+            l: cells[2],
+            a: cells[3]
+        });
+    }
+    fromRgbString(trimStr) {
+        const cells = splitColorStr(trimStr, (num, txt)=>// Convert percentage to number. e.g. 50% -> 128
+            txt.includes('%') ? round(num / 100 * 255) : num);
+        this.r = cells[0];
+        this.g = cells[1];
+        this.b = cells[2];
+        this.a = cells[3];
+    }
+}
+}}),
+"[project]/node_modules/@ant-design/fast-color/es/types.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+;
+}}),
+"[project]/node_modules/@ant-design/fast-color/es/index.js [app-ssr] (ecmascript) <locals>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$FastColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/FastColor.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$types$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/types.js [app-ssr] (ecmascript)");
+;
+;
+}}),
+"[project]/node_modules/@ant-design/fast-color/es/index.js [app-ssr] (ecmascript) <module evaluation>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$FastColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/FastColor.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$types$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/types.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/index.js [app-ssr] (ecmascript) <locals>");
+}}),
+"[project]/node_modules/@ant-design/colors/es/generate.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>generate)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/index.js [app-ssr] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$FastColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/fast-color/es/FastColor.js [app-ssr] (ecmascript)");
+;
+const hueStep = 2; // 色相阶梯
+const saturationStep = 0.16; // 饱和度阶梯，浅色部分
+const saturationStep2 = 0.05; // 饱和度阶梯，深色部分
+const brightnessStep1 = 0.05; // 亮度阶梯，浅色部分
+const brightnessStep2 = 0.15; // 亮度阶梯，深色部分
+const lightColorCount = 5; // 浅色数量，主色上
+const darkColorCount = 4; // 深色数量，主色下
+// 暗色主题颜色映射关系表
+const darkColorMap = [
+    {
+        index: 7,
+        amount: 15
+    },
+    {
+        index: 6,
+        amount: 25
+    },
+    {
+        index: 5,
+        amount: 30
+    },
+    {
+        index: 5,
+        amount: 45
+    },
+    {
+        index: 5,
+        amount: 65
+    },
+    {
+        index: 5,
+        amount: 85
+    },
+    {
+        index: 4,
+        amount: 90
+    },
+    {
+        index: 3,
+        amount: 95
+    },
+    {
+        index: 2,
+        amount: 97
+    },
+    {
+        index: 1,
+        amount: 98
+    }
+];
+function getHue(hsv, i, light) {
+    let hue;
+    // 根据色相不同，色相转向不同
+    if (Math.round(hsv.h) >= 60 && Math.round(hsv.h) <= 240) {
+        hue = light ? Math.round(hsv.h) - hueStep * i : Math.round(hsv.h) + hueStep * i;
+    } else {
+        hue = light ? Math.round(hsv.h) + hueStep * i : Math.round(hsv.h) - hueStep * i;
+    }
+    if (hue < 0) {
+        hue += 360;
+    } else if (hue >= 360) {
+        hue -= 360;
+    }
+    return hue;
+}
+function getSaturation(hsv, i, light) {
+    // grey color don't change saturation
+    if (hsv.h === 0 && hsv.s === 0) {
+        return hsv.s;
+    }
+    let saturation;
+    if (light) {
+        saturation = hsv.s - saturationStep * i;
+    } else if (i === darkColorCount) {
+        saturation = hsv.s + saturationStep;
+    } else {
+        saturation = hsv.s + saturationStep2 * i;
+    }
+    // 边界值修正
+    if (saturation > 1) {
+        saturation = 1;
+    }
+    // 第一格的 s 限制在 0.06-0.1 之间
+    if (light && i === lightColorCount && saturation > 0.1) {
+        saturation = 0.1;
+    }
+    if (saturation < 0.06) {
+        saturation = 0.06;
+    }
+    return Math.round(saturation * 100) / 100;
+}
+function getValue(hsv, i, light) {
+    let value;
+    if (light) {
+        value = hsv.v + brightnessStep1 * i;
+    } else {
+        value = hsv.v - brightnessStep2 * i;
+    }
+    // Clamp value between 0 and 1
+    value = Math.max(0, Math.min(1, value));
+    return Math.round(value * 100) / 100;
+}
+function generate(color, opts = {}) {
+    const patterns = [];
+    const pColor = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$FastColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FastColor"](color);
+    const hsv = pColor.toHsv();
+    for(let i = lightColorCount; i > 0; i -= 1){
+        const c = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$FastColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FastColor"]({
+            h: getHue(hsv, i, true),
+            s: getSaturation(hsv, i, true),
+            v: getValue(hsv, i, true)
+        });
+        patterns.push(c);
+    }
+    patterns.push(pColor);
+    for(let i = 1; i <= darkColorCount; i += 1){
+        const c = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$FastColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FastColor"]({
+            h: getHue(hsv, i),
+            s: getSaturation(hsv, i),
+            v: getValue(hsv, i)
+        });
+        patterns.push(c);
+    }
+    // dark theme patterns
+    if (opts.theme === 'dark') {
+        return darkColorMap.map(({ index, amount })=>new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$fast$2d$color$2f$es$2f$FastColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FastColor"](opts.backgroundColor || '#141414').mix(patterns[index], amount).toHexString());
+    }
+    return patterns.map((c)=>c.toHexString());
+}
+}}),
+"[project]/node_modules/@ant-design/colors/es/presets.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+// Generated by script. Do NOT modify!
+__turbopack_context__.s({
+    "blue": (()=>blue),
+    "blueDark": (()=>blueDark),
+    "cyan": (()=>cyan),
+    "cyanDark": (()=>cyanDark),
+    "geekblue": (()=>geekblue),
+    "geekblueDark": (()=>geekblueDark),
+    "gold": (()=>gold),
+    "goldDark": (()=>goldDark),
+    "gray": (()=>gray),
+    "green": (()=>green),
+    "greenDark": (()=>greenDark),
+    "grey": (()=>grey),
+    "greyDark": (()=>greyDark),
+    "lime": (()=>lime),
+    "limeDark": (()=>limeDark),
+    "magenta": (()=>magenta),
+    "magentaDark": (()=>magentaDark),
+    "orange": (()=>orange),
+    "orangeDark": (()=>orangeDark),
+    "presetDarkPalettes": (()=>presetDarkPalettes),
+    "presetPalettes": (()=>presetPalettes),
+    "presetPrimaryColors": (()=>presetPrimaryColors),
+    "purple": (()=>purple),
+    "purpleDark": (()=>purpleDark),
+    "red": (()=>red),
+    "redDark": (()=>redDark),
+    "volcano": (()=>volcano),
+    "volcanoDark": (()=>volcanoDark),
+    "yellow": (()=>yellow),
+    "yellowDark": (()=>yellowDark)
+});
+const presetPrimaryColors = {
+    "red": "#F5222D",
+    "volcano": "#FA541C",
+    "orange": "#FA8C16",
+    "gold": "#FAAD14",
+    "yellow": "#FADB14",
+    "lime": "#A0D911",
+    "green": "#52C41A",
+    "cyan": "#13C2C2",
+    "blue": "#1677FF",
+    "geekblue": "#2F54EB",
+    "purple": "#722ED1",
+    "magenta": "#EB2F96",
+    "grey": "#666666"
+};
+const red = [
+    "#fff1f0",
+    "#ffccc7",
+    "#ffa39e",
+    "#ff7875",
+    "#ff4d4f",
+    "#f5222d",
+    "#cf1322",
+    "#a8071a",
+    "#820014",
+    "#5c0011"
+];
+red.primary = red[5];
+const volcano = [
+    "#fff2e8",
+    "#ffd8bf",
+    "#ffbb96",
+    "#ff9c6e",
+    "#ff7a45",
+    "#fa541c",
+    "#d4380d",
+    "#ad2102",
+    "#871400",
+    "#610b00"
+];
+volcano.primary = volcano[5];
+const orange = [
+    "#fff7e6",
+    "#ffe7ba",
+    "#ffd591",
+    "#ffc069",
+    "#ffa940",
+    "#fa8c16",
+    "#d46b08",
+    "#ad4e00",
+    "#873800",
+    "#612500"
+];
+orange.primary = orange[5];
+const gold = [
+    "#fffbe6",
+    "#fff1b8",
+    "#ffe58f",
+    "#ffd666",
+    "#ffc53d",
+    "#faad14",
+    "#d48806",
+    "#ad6800",
+    "#874d00",
+    "#613400"
+];
+gold.primary = gold[5];
+const yellow = [
+    "#feffe6",
+    "#ffffb8",
+    "#fffb8f",
+    "#fff566",
+    "#ffec3d",
+    "#fadb14",
+    "#d4b106",
+    "#ad8b00",
+    "#876800",
+    "#614700"
+];
+yellow.primary = yellow[5];
+const lime = [
+    "#fcffe6",
+    "#f4ffb8",
+    "#eaff8f",
+    "#d3f261",
+    "#bae637",
+    "#a0d911",
+    "#7cb305",
+    "#5b8c00",
+    "#3f6600",
+    "#254000"
+];
+lime.primary = lime[5];
+const green = [
+    "#f6ffed",
+    "#d9f7be",
+    "#b7eb8f",
+    "#95de64",
+    "#73d13d",
+    "#52c41a",
+    "#389e0d",
+    "#237804",
+    "#135200",
+    "#092b00"
+];
+green.primary = green[5];
+const cyan = [
+    "#e6fffb",
+    "#b5f5ec",
+    "#87e8de",
+    "#5cdbd3",
+    "#36cfc9",
+    "#13c2c2",
+    "#08979c",
+    "#006d75",
+    "#00474f",
+    "#002329"
+];
+cyan.primary = cyan[5];
+const blue = [
+    "#e6f4ff",
+    "#bae0ff",
+    "#91caff",
+    "#69b1ff",
+    "#4096ff",
+    "#1677ff",
+    "#0958d9",
+    "#003eb3",
+    "#002c8c",
+    "#001d66"
+];
+blue.primary = blue[5];
+const geekblue = [
+    "#f0f5ff",
+    "#d6e4ff",
+    "#adc6ff",
+    "#85a5ff",
+    "#597ef7",
+    "#2f54eb",
+    "#1d39c4",
+    "#10239e",
+    "#061178",
+    "#030852"
+];
+geekblue.primary = geekblue[5];
+const purple = [
+    "#f9f0ff",
+    "#efdbff",
+    "#d3adf7",
+    "#b37feb",
+    "#9254de",
+    "#722ed1",
+    "#531dab",
+    "#391085",
+    "#22075e",
+    "#120338"
+];
+purple.primary = purple[5];
+const magenta = [
+    "#fff0f6",
+    "#ffd6e7",
+    "#ffadd2",
+    "#ff85c0",
+    "#f759ab",
+    "#eb2f96",
+    "#c41d7f",
+    "#9e1068",
+    "#780650",
+    "#520339"
+];
+magenta.primary = magenta[5];
+const grey = [
+    "#a6a6a6",
+    "#999999",
+    "#8c8c8c",
+    "#808080",
+    "#737373",
+    "#666666",
+    "#404040",
+    "#1a1a1a",
+    "#000000",
+    "#000000"
+];
+grey.primary = grey[5];
+const gray = grey;
+const presetPalettes = {
+    red,
+    volcano,
+    orange,
+    gold,
+    yellow,
+    lime,
+    green,
+    cyan,
+    blue,
+    geekblue,
+    purple,
+    magenta,
+    grey
+};
+const redDark = [
+    "#2a1215",
+    "#431418",
+    "#58181c",
+    "#791a1f",
+    "#a61d24",
+    "#d32029",
+    "#e84749",
+    "#f37370",
+    "#f89f9a",
+    "#fac8c3"
+];
+redDark.primary = redDark[5];
+const volcanoDark = [
+    "#2b1611",
+    "#441d12",
+    "#592716",
+    "#7c3118",
+    "#aa3e19",
+    "#d84a1b",
+    "#e87040",
+    "#f3956a",
+    "#f8b692",
+    "#fad4bc"
+];
+volcanoDark.primary = volcanoDark[5];
+const orangeDark = [
+    "#2b1d11",
+    "#442a11",
+    "#593815",
+    "#7c4a15",
+    "#aa6215",
+    "#d87a16",
+    "#e89a3c",
+    "#f3b765",
+    "#f8cf8d",
+    "#fae3b7"
+];
+orangeDark.primary = orangeDark[5];
+const goldDark = [
+    "#2b2111",
+    "#443111",
+    "#594214",
+    "#7c5914",
+    "#aa7714",
+    "#d89614",
+    "#e8b339",
+    "#f3cc62",
+    "#f8df8b",
+    "#faedb5"
+];
+goldDark.primary = goldDark[5];
+const yellowDark = [
+    "#2b2611",
+    "#443b11",
+    "#595014",
+    "#7c6e14",
+    "#aa9514",
+    "#d8bd14",
+    "#e8d639",
+    "#f3ea62",
+    "#f8f48b",
+    "#fafab5"
+];
+yellowDark.primary = yellowDark[5];
+const limeDark = [
+    "#1f2611",
+    "#2e3c10",
+    "#3e4f13",
+    "#536d13",
+    "#6f9412",
+    "#8bbb11",
+    "#a9d134",
+    "#c9e75d",
+    "#e4f88b",
+    "#f0fab5"
+];
+limeDark.primary = limeDark[5];
+const greenDark = [
+    "#162312",
+    "#1d3712",
+    "#274916",
+    "#306317",
+    "#3c8618",
+    "#49aa19",
+    "#6abe39",
+    "#8fd460",
+    "#b2e58b",
+    "#d5f2bb"
+];
+greenDark.primary = greenDark[5];
+const cyanDark = [
+    "#112123",
+    "#113536",
+    "#144848",
+    "#146262",
+    "#138585",
+    "#13a8a8",
+    "#33bcb7",
+    "#58d1c9",
+    "#84e2d8",
+    "#b2f1e8"
+];
+cyanDark.primary = cyanDark[5];
+const blueDark = [
+    "#111a2c",
+    "#112545",
+    "#15325b",
+    "#15417e",
+    "#1554ad",
+    "#1668dc",
+    "#3c89e8",
+    "#65a9f3",
+    "#8dc5f8",
+    "#b7dcfa"
+];
+blueDark.primary = blueDark[5];
+const geekblueDark = [
+    "#131629",
+    "#161d40",
+    "#1c2755",
+    "#203175",
+    "#263ea0",
+    "#2b4acb",
+    "#5273e0",
+    "#7f9ef3",
+    "#a8c1f8",
+    "#d2e0fa"
+];
+geekblueDark.primary = geekblueDark[5];
+const purpleDark = [
+    "#1a1325",
+    "#24163a",
+    "#301c4d",
+    "#3e2069",
+    "#51258f",
+    "#642ab5",
+    "#854eca",
+    "#ab7ae0",
+    "#cda8f0",
+    "#ebd7fa"
+];
+purpleDark.primary = purpleDark[5];
+const magentaDark = [
+    "#291321",
+    "#40162f",
+    "#551c3b",
+    "#75204f",
+    "#a02669",
+    "#cb2b83",
+    "#e0529c",
+    "#f37fb7",
+    "#f8a8cc",
+    "#fad2e3"
+];
+magentaDark.primary = magentaDark[5];
+const greyDark = [
+    "#151515",
+    "#1f1f1f",
+    "#2d2d2d",
+    "#393939",
+    "#494949",
+    "#5a5a5a",
+    "#6a6a6a",
+    "#7b7b7b",
+    "#888888",
+    "#969696"
+];
+greyDark.primary = greyDark[5];
+const presetDarkPalettes = {
+    red: redDark,
+    volcano: volcanoDark,
+    orange: orangeDark,
+    gold: goldDark,
+    yellow: yellowDark,
+    lime: limeDark,
+    green: greenDark,
+    cyan: cyanDark,
+    blue: blueDark,
+    geekblue: geekblueDark,
+    purple: purpleDark,
+    magenta: magentaDark,
+    grey: greyDark
+};
+}}),
+"[project]/node_modules/@ant-design/colors/es/types.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+;
+}}),
+"[project]/node_modules/@ant-design/colors/es/index.js [app-ssr] (ecmascript) <locals>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$generate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/generate.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$presets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/presets.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$types$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/types.js [app-ssr] (ecmascript)");
+;
+;
+;
+}}),
+"[project]/node_modules/@ant-design/colors/es/index.js [app-ssr] (ecmascript) <module evaluation>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$generate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/generate.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$presets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/presets.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$types$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/types.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/index.js [app-ssr] (ecmascript) <locals>");
+}}),
+"[project]/node_modules/@ant-design/icons/es/components/Context.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+;
+const IconContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"])({});
+const __TURBOPACK__default__export__ = IconContext;
+}}),
+"[project]/node_modules/@ant-design/colors/es/generate.js [app-ssr] (ecmascript) <export default as generate>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "generate": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$generate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$generate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/generate.js [app-ssr] (ecmascript)");
+}}),
+"[project]/node_modules/@rc-component/util/es/Dom/canUseDom.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>canUseDom)
+});
+function canUseDom() {
+    return !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+}
+}}),
+"[project]/node_modules/@rc-component/util/es/Dom/contains.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>contains)
+});
+function contains(root, n) {
+    if (!root) {
+        return false;
+    }
+    // Use native if support
+    if (root.contains) {
+        return root.contains(n);
+    }
+    // `document.contains` not support with IE11
+    let node = n;
+    while(node){
+        if (node === root) {
+            return true;
+        }
+        node = node.parentNode;
+    }
+    return false;
+}
+}}),
+"[project]/node_modules/@rc-component/util/es/Dom/dynamicCSS.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "clearContainerCache": (()=>clearContainerCache),
+    "injectCSS": (()=>injectCSS),
+    "removeCSS": (()=>removeCSS),
+    "updateCSS": (()=>updateCSS)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$canUseDom$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@rc-component/util/es/Dom/canUseDom.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$contains$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@rc-component/util/es/Dom/contains.js [app-ssr] (ecmascript)");
+;
+;
+const APPEND_ORDER = 'data-rc-order';
+const APPEND_PRIORITY = 'data-rc-priority';
+const MARK_KEY = `rc-util-key`;
+const containerCache = new Map();
+function getMark({ mark } = {}) {
+    if (mark) {
+        return mark.startsWith('data-') ? mark : `data-${mark}`;
+    }
+    return MARK_KEY;
+}
+function getContainer(option) {
+    if (option.attachTo) {
+        return option.attachTo;
+    }
+    const head = document.querySelector('head');
+    return head || document.body;
+}
+function getOrder(prepend) {
+    if (prepend === 'queue') {
+        return 'prependQueue';
+    }
+    return prepend ? 'prepend' : 'append';
+}
+/**
+ * Find style which inject by rc-util
+ */ function findStyles(container) {
+    return Array.from((containerCache.get(container) || container).children).filter((node)=>node.tagName === 'STYLE');
+}
+function injectCSS(css, option = {}) {
+    if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$canUseDom$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])()) {
+        return null;
+    }
+    const { csp, prepend, priority = 0 } = option;
+    const mergedOrder = getOrder(prepend);
+    const isPrependQueue = mergedOrder === 'prependQueue';
+    const styleNode = document.createElement('style');
+    styleNode.setAttribute(APPEND_ORDER, mergedOrder);
+    if (isPrependQueue && priority) {
+        styleNode.setAttribute(APPEND_PRIORITY, `${priority}`);
+    }
+    if (csp?.nonce) {
+        styleNode.nonce = csp?.nonce;
+    }
+    styleNode.innerHTML = css;
+    const container = getContainer(option);
+    const { firstChild } = container;
+    if (prepend) {
+        // If is queue `prepend`, it will prepend first style and then append rest style
+        if (isPrependQueue) {
+            const existStyle = (option.styles || findStyles(container)).filter((node)=>{
+                // Ignore style which not injected by rc-util with prepend
+                if (![
+                    'prepend',
+                    'prependQueue'
+                ].includes(node.getAttribute(APPEND_ORDER))) {
+                    return false;
+                }
+                // Ignore style which priority less then new style
+                const nodePriority = Number(node.getAttribute(APPEND_PRIORITY) || 0);
+                return priority >= nodePriority;
+            });
+            if (existStyle.length) {
+                container.insertBefore(styleNode, existStyle[existStyle.length - 1].nextSibling);
+                return styleNode;
+            }
+        }
+        // Use `insertBefore` as `prepend`
+        container.insertBefore(styleNode, firstChild);
+    } else {
+        container.appendChild(styleNode);
+    }
+    return styleNode;
+}
+function findExistNode(key, option = {}) {
+    let { styles } = option;
+    styles ||= findStyles(getContainer(option));
+    return styles.find((node)=>node.getAttribute(getMark(option)) === key);
+}
+function removeCSS(key, option = {}) {
+    const existNode = findExistNode(key, option);
+    if (existNode) {
+        const container = getContainer(option);
+        container.removeChild(existNode);
+    }
+}
+/**
+ * qiankun will inject `appendChild` to insert into other
+ */ function syncRealContainer(container, option) {
+    const cachedRealContainer = containerCache.get(container);
+    // Find real container when not cached or cached container removed
+    if (!cachedRealContainer || !(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$contains$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(document, cachedRealContainer)) {
+        const placeholderStyle = injectCSS('', option);
+        const { parentNode } = placeholderStyle;
+        containerCache.set(container, parentNode);
+        container.removeChild(placeholderStyle);
+    }
+}
+function clearContainerCache() {
+    containerCache.clear();
+}
+function updateCSS(css, key, originOption = {}) {
+    const container = getContainer(originOption);
+    const styles = findStyles(container);
+    const option = {
+        ...originOption,
+        styles
+    };
+    // Sync real parent
+    syncRealContainer(container, option);
+    const existNode = findExistNode(key, option);
+    if (existNode) {
+        if (option.csp?.nonce && existNode.nonce !== option.csp?.nonce) {
+            existNode.nonce = option.csp?.nonce;
+        }
+        if (existNode.innerHTML !== css) {
+            existNode.innerHTML = css;
+        }
+        return existNode;
+    }
+    const newNode = injectCSS(css, option);
+    newNode.setAttribute(getMark(option), key);
+    return newNode;
+}
+}}),
+"[project]/node_modules/@rc-component/util/es/Dom/shadow.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "getShadowRoot": (()=>getShadowRoot),
+    "inShadow": (()=>inShadow)
+});
+function getRoot(ele) {
+    return ele?.getRootNode?.();
+}
+function inShadow(ele) {
+    return getRoot(ele) instanceof ShadowRoot;
+}
+function getShadowRoot(ele) {
+    return inShadow(ele) ? getRoot(ele) : null;
+}
+}}),
+"[project]/node_modules/@rc-component/util/es/warning.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+/* eslint-disable no-console */ __turbopack_context__.s({
+    "call": (()=>call),
+    "default": (()=>__TURBOPACK__default__export__),
+    "note": (()=>note),
+    "noteOnce": (()=>noteOnce),
+    "preMessage": (()=>preMessage),
+    "resetWarned": (()=>resetWarned),
+    "warning": (()=>warning),
+    "warningOnce": (()=>warningOnce)
+});
+let warned = {};
+const preWarningFns = [];
+const preMessage = (fn)=>{
+    preWarningFns.push(fn);
+};
+function warning(valid, message) {
+    if (("TURBOPACK compile-time value", "development") !== 'production' && !valid && console !== undefined) {
+        const finalMessage = preWarningFns.reduce((msg, preMessageFn)=>preMessageFn(msg ?? '', 'warning'), message);
+        if (finalMessage) {
+            console.error(`Warning: ${finalMessage}`);
+        }
+    }
+}
+function note(valid, message) {
+    if (("TURBOPACK compile-time value", "development") !== 'production' && !valid && console !== undefined) {
+        const finalMessage = preWarningFns.reduce((msg, preMessageFn)=>preMessageFn(msg ?? '', 'note'), message);
+        if (finalMessage) {
+            console.warn(`Note: ${finalMessage}`);
+        }
+    }
+}
+function resetWarned() {
+    warned = {};
+}
+function call(method, valid, message) {
+    if (!valid && !warned[message]) {
+        method(false, message);
+        warned[message] = true;
+    }
+}
+function warningOnce(valid, message) {
+    call(warning, valid, message);
+}
+function noteOnce(valid, message) {
+    call(note, valid, message);
+}
+warningOnce.preMessage = preMessage;
+warningOnce.resetWarned = resetWarned;
+warningOnce.noteOnce = noteOnce;
+const __TURBOPACK__default__export__ = warningOnce;
+}}),
+"[project]/node_modules/@ant-design/icons/es/utils.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "generate": (()=>generate),
+    "getSecondaryColor": (()=>getSecondaryColor),
+    "iconStyles": (()=>iconStyles),
+    "isIconDefinition": (()=>isIconDefinition),
+    "normalizeAttrs": (()=>normalizeAttrs),
+    "normalizeTwoToneColors": (()=>normalizeTwoToneColors),
+    "svgBaseProps": (()=>svgBaseProps),
+    "useInsertStyles": (()=>useInsertStyles),
+    "warning": (()=>warning)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/index.js [app-ssr] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$generate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__generate$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/generate.js [app-ssr] (ecmascript) <export default as generate>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$dynamicCSS$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@rc-component/util/es/Dom/dynamicCSS.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$shadow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@rc-component/util/es/Dom/shadow.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$warning$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@rc-component/util/es/warning.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$Context$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/components/Context.js [app-ssr] (ecmascript)");
+;
+;
+;
+;
+;
+;
+function camelCase(input) {
+    return input.replace(/-(.)/g, (match, g)=>g.toUpperCase());
+}
+function warning(valid, message) {
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$warning$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(valid, `[@ant-design/icons] ${message}`);
+}
+function isIconDefinition(target) {
+    return typeof target === 'object' && typeof target.name === 'string' && typeof target.theme === 'string' && (typeof target.icon === 'object' || typeof target.icon === 'function');
+}
+function normalizeAttrs(attrs = {}) {
+    return Object.keys(attrs).reduce((acc, key)=>{
+        const val = attrs[key];
+        switch(key){
+            case 'class':
+                acc.className = val;
+                delete acc.class;
+                break;
+            default:
+                delete acc[key];
+                acc[camelCase(key)] = val;
+        }
+        return acc;
+    }, {});
+}
+function generate(node, key, rootProps) {
+    if (!rootProps) {
+        return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(node.tag, {
+            key,
+            ...normalizeAttrs(node.attrs)
+        }, (node.children || []).map((child, index)=>generate(child, `${key}-${node.tag}-${index}`)));
+    }
+    return /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].createElement(node.tag, {
+        key,
+        ...normalizeAttrs(node.attrs),
+        ...rootProps
+    }, (node.children || []).map((child, index)=>generate(child, `${key}-${node.tag}-${index}`)));
+}
+function getSecondaryColor(primaryColor) {
+    // choose the second color
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$generate$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__generate$3e$__["generate"])(primaryColor)[0];
+}
+function normalizeTwoToneColors(twoToneColor) {
+    if (!twoToneColor) {
+        return [];
+    }
+    return Array.isArray(twoToneColor) ? twoToneColor : [
+        twoToneColor
+    ];
+}
+const svgBaseProps = {
+    width: '1em',
+    height: '1em',
+    fill: 'currentColor',
+    'aria-hidden': 'true',
+    focusable: 'false'
+};
+const iconStyles = `
+.anticon {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anticon > * {
+  line-height: 1;
+}
+
+.anticon svg {
+  display: inline-block;
+}
+
+.anticon::before {
+  display: none;
+}
+
+.anticon .anticon-icon {
+  display: block;
+}
+
+.anticon[tabindex] {
+  cursor: pointer;
+}
+
+.anticon-spin::before,
+.anticon-spin {
+  display: inline-block;
+  -webkit-animation: loadingCircle 1s infinite linear;
+  animation: loadingCircle 1s infinite linear;
+}
+
+@-webkit-keyframes loadingCircle {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingCircle {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+`;
+const useInsertStyles = (eleRef)=>{
+    const { csp, prefixCls, layer } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$Context$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]);
+    let mergedStyleStr = iconStyles;
+    if (prefixCls) {
+        mergedStyleStr = mergedStyleStr.replace(/anticon/g, prefixCls);
+    }
+    if (layer) {
+        mergedStyleStr = `@layer ${layer} {\n${mergedStyleStr}\n}`;
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const ele = eleRef.current;
+        const shadowRoot = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$shadow$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getShadowRoot"])(ele);
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$rc$2d$component$2f$util$2f$es$2f$Dom$2f$dynamicCSS$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["updateCSS"])(mergedStyleStr, '@ant-design-icons', {
+            prepend: !layer,
+            csp,
+            attachTo: shadowRoot
+        });
+    }, []);
+};
+}}),
+"[project]/node_modules/@ant-design/icons/es/components/IconBase.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/utils.js [app-ssr] (ecmascript)");
+;
+;
+const twoToneColorPalette = {
+    primaryColor: '#333',
+    secondaryColor: '#E6E6E6',
+    calculated: false
+};
+function setTwoToneColors({ primaryColor, secondaryColor }) {
+    twoToneColorPalette.primaryColor = primaryColor;
+    twoToneColorPalette.secondaryColor = secondaryColor || (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getSecondaryColor"])(primaryColor);
+    twoToneColorPalette.calculated = !!secondaryColor;
+}
+function getTwoToneColors() {
+    return {
+        ...twoToneColorPalette
+    };
+}
+const IconBase = (props)=>{
+    const { icon, className, onClick, style, primaryColor, secondaryColor, ...restProps } = props;
+    const svgRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])();
+    let colors = twoToneColorPalette;
+    if (primaryColor) {
+        colors = {
+            primaryColor,
+            secondaryColor: secondaryColor || (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getSecondaryColor"])(primaryColor)
+        };
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useInsertStyles"])(svgRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["warning"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["isIconDefinition"])(icon), `icon should be icon definiton, but got ${icon}`);
+    if (!(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["isIconDefinition"])(icon)) {
+        return null;
+    }
+    let target = icon;
+    if (target && typeof target.icon === 'function') {
+        target = {
+            ...target,
+            icon: target.icon(colors.primaryColor, colors.secondaryColor)
+        };
+    }
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["generate"])(target.icon, `svg-${target.name}`, {
+        className,
+        onClick,
+        style,
+        'data-icon': target.name,
+        width: '1em',
+        height: '1em',
+        fill: 'currentColor',
+        'aria-hidden': 'true',
+        ...restProps,
+        ref: svgRef
+    });
+};
+IconBase.displayName = 'IconReact';
+IconBase.getTwoToneColors = getTwoToneColors;
+IconBase.setTwoToneColors = setTwoToneColors;
+const __TURBOPACK__default__export__ = IconBase;
+}}),
+"[project]/node_modules/@ant-design/icons/es/components/twoTonePrimaryColor.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "getTwoToneColor": (()=>getTwoToneColor),
+    "setTwoToneColor": (()=>setTwoToneColor)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$IconBase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/components/IconBase.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/utils.js [app-ssr] (ecmascript)");
+;
+;
+function setTwoToneColor(twoToneColor) {
+    const [primaryColor, secondaryColor] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["normalizeTwoToneColors"])(twoToneColor);
+    return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$IconBase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].setTwoToneColors({
+        primaryColor,
+        secondaryColor
+    });
+}
+function getTwoToneColor() {
+    const colors = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$IconBase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].getTwoToneColors();
+    if (!colors.calculated) {
+        return colors.primaryColor;
+    }
+    return [
+        colors.primaryColor,
+        colors.secondaryColor
+    ];
+}
+}}),
+"[project]/node_modules/@ant-design/icons/es/components/AntdIcon.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/classnames/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/index.js [app-ssr] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$presets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/colors/es/presets.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$Context$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/components/Context.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$IconBase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/components/IconBase.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$twoTonePrimaryColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/components/twoTonePrimaryColor.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/utils.js [app-ssr] (ecmascript)");
+'use client';
+function _extends() {
+    _extends = ("TURBOPACK compile-time truthy", 1) ? Object.assign.bind() : ("TURBOPACK unreachable", undefined);
+    return _extends.apply(this, arguments);
+}
+;
+;
+;
+;
+;
+;
+;
+// Initial setting
+// should move it to antd main repo?
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$twoTonePrimaryColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["setTwoToneColor"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$colors$2f$es$2f$presets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["blue"].primary);
+// https://github.com/DefinitelyTyped/DefinitelyTyped/issues/34757#issuecomment-488848720
+const Icon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])((props, ref)=>{
+    const { // affect outter <i>...</i>
+    className, // affect inner <svg>...</svg>
+    icon, spin, rotate, tabIndex, onClick, // other
+    twoToneColor, ...restProps } = props;
+    const { prefixCls = 'anticon', rootClassName } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useContext"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$Context$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]);
+    const classString = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(rootClassName, prefixCls, {
+        [`${prefixCls}-${icon.name}`]: !!icon.name,
+        [`${prefixCls}-spin`]: !!spin || icon.name === 'loading'
+    }, className);
+    let iconTabIndex = tabIndex;
+    if (iconTabIndex === undefined && onClick) {
+        iconTabIndex = -1;
+    }
+    const svgStyle = rotate ? {
+        msTransform: `rotate(${rotate}deg)`,
+        transform: `rotate(${rotate}deg)`
+    } : undefined;
+    const [primaryColor, secondaryColor] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["normalizeTwoToneColors"])(twoToneColor);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])("span", _extends({
+        role: "img",
+        "aria-label": icon.name
+    }, restProps, {
+        ref: ref,
+        tabIndex: iconTabIndex,
+        onClick: onClick,
+        className: classString
+    }), /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$IconBase$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        icon: icon,
+        primaryColor: primaryColor,
+        secondaryColor: secondaryColor,
+        style: svgStyle
+    }));
+});
+Icon.displayName = 'AntdIcon';
+Icon.getTwoToneColor = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$twoTonePrimaryColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getTwoToneColor"];
+Icon.setTwoToneColor = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$twoTonePrimaryColor$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["setTwoToneColor"];
+const __TURBOPACK__default__export__ = Icon;
+}}),
+"[project]/node_modules/@ant-design/icons/es/icons/SunFilled.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2d$svg$2f$es$2f$asn$2f$SunFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons-svg/es/asn/SunFilled.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$AntdIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/components/AntdIcon.js [app-ssr] (ecmascript)");
+function _extends() {
+    _extends = ("TURBOPACK compile-time truthy", 1) ? Object.assign.bind() : ("TURBOPACK unreachable", undefined);
+    return _extends.apply(this, arguments);
+}
+;
+;
+;
+const SunFilled = (props, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$AntdIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], _extends({}, props, {
+        ref: ref,
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2d$svg$2f$es$2f$asn$2f$SunFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+    }));
+/**![sun](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdmlld0JveD0iNjQgNjQgODk2IDg5NiIgZm9jdXNhYmxlPSJmYWxzZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTQ4IDgxOHYxMjZhMTYgMTYgMCAwMS0xNiAxNmgtNDBhMTYgMTYgMCAwMS0xNi0xNlY4MThjMTUuODUgMS42NCAyNy44NCAyLjQ2IDM2IDIuNDYgOC4xNSAwIDIwLjE2LS44MiAzNi0yLjQ2bTIwNS4yNS0xMTUuNjZsODkuMSA4OS4xYTE2IDE2IDAgMDEwIDIyLjYybC0yOC4yOSAyOC4yOWExNiAxNiAwIDAxLTIyLjYyIDBsLTg5LjEtODkuMWMxMi4zNy0xMC4wNCAyMS40My0xNy45NSAyNy4yLTIzLjcxIDUuNzYtNS43NyAxMy42Ny0xNC44NCAyMy43MS0yNy4ybS00ODIuNSAwYzEwLjA0IDEyLjM2IDE3Ljk1IDIxLjQzIDIzLjcxIDI3LjIgNS43NyA1Ljc2IDE0Ljg0IDEzLjY3IDI3LjIgMjMuNzFsLTg5LjEgODkuMWExNiAxNiAwIDAxLTIyLjYyIDBsLTI4LjI5LTI4LjI5YTE2IDE2IDAgMDEwLTIyLjYzek01MTIgMjc4YzEyOS4yNCAwIDIzNCAxMDQuNzcgMjM0IDIzNFM2NDEuMjQgNzQ2IDUxMiA3NDYgMjc4IDY0MS4yNCAyNzggNTEyczEwNC43Ny0yMzQgMjM0LTIzNE0yMDYgNDc2Yy0xLjY0IDE1Ljg1LTIuNDYgMjcuODQtMi40NiAzNiAwIDguMTUuODIgMjAuMTYgMi40NiAzNkg4MGExNiAxNiAwIDAxLTE2LTE2di00MGExNiAxNiAwIDAxMTYtMTZ6bTczOCAwYTE2IDE2IDAgMDExNiAxNnY0MGExNiAxNiAwIDAxLTE2IDE2SDgxOGMxLjY0LTE1Ljg1IDIuNDYtMjcuODQgMi40Ni0zNiAwLTguMTUtLjgyLTIwLjE2LTIuNDYtMzZ6TTgxNC4wNiAxODAuNjVsMjguMjkgMjguMjlhMTYgMTYgMCAwMTAgMjIuNjNsLTg5LjEgODkuMDljLTEwLjA0LTEyLjM3LTE3Ljk1LTIxLjQzLTIzLjcxLTI3LjItNS43Ny01Ljc2LTE0Ljg0LTEzLjY3LTI3LjItMjMuNzFsODkuMS04OS4xYTE2IDE2IDAgMDEyMi42MiAwbS01ODEuNSAwbDg5LjEgODkuMWMtMTIuMzcgMTAuMDQtMjEuNDMgMTcuOTUtMjcuMiAyMy43MS01Ljc2IDUuNzctMTMuNjcgMTQuODQtMjMuNzEgMjcuMmwtODkuMS04OS4xYTE2IDE2IDAgMDEwLTIyLjYybDI4LjI5LTI4LjI5YTE2IDE2IDAgMDEyMi42MiAwTTUzMiA2NGExNiAxNiAwIDAxMTYgMTZ2MTI2Yy0xNS44NS0xLjY0LTI3Ljg0LTIuNDYtMzYtMi40Ni04LjE1IDAtMjAuMTYuODItMzYgMi40NlY4MGExNiAxNiAwIDAxMTYtMTZ6IiAvPjwvc3ZnPg==) */ const RefIcon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(SunFilled);
+if ("TURBOPACK compile-time truthy", 1) {
+    RefIcon.displayName = 'SunFilled';
+}
+const __TURBOPACK__default__export__ = RefIcon;
+}}),
+"[project]/node_modules/@ant-design/icons/es/icons/SunFilled.js [app-ssr] (ecmascript) <export default as SunFilled>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "SunFilled": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$SunFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$SunFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/icons/SunFilled.js [app-ssr] (ecmascript)");
+}}),
+"[project]/node_modules/@ant-design/icons-svg/es/asn/MoonFilled.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+// This icon file is generated automatically.
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+var MoonFilled = {
+    "icon": {
+        "tag": "svg",
+        "attrs": {
+            "fill-rule": "evenodd",
+            "viewBox": "64 64 896 896",
+            "focusable": "false"
+        },
+        "children": [
+            {
+                "tag": "path",
+                "attrs": {
+                    "d": "M489.5 111.66c30.65-1.8 45.98 36.44 22.58 56.33A243.35 243.35 0 00426 354c0 134.76 109.24 244 244 244 72.58 0 139.9-31.83 186.01-86.08 19.87-23.38 58.07-8.1 56.34 22.53C900.4 745.82 725.15 912 512.5 912 291.31 912 112 732.69 112 511.5c0-211.39 164.29-386.02 374.2-399.65l.2-.01z"
+                }
+            }
+        ]
+    },
+    "name": "moon",
+    "theme": "filled"
+};
+const __TURBOPACK__default__export__ = MoonFilled;
+}}),
+"[project]/node_modules/@ant-design/icons/es/icons/MoonFilled.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "default": (()=>__TURBOPACK__default__export__)
+});
+// GENERATE BY ./scripts/generate.ts
+// DON NOT EDIT IT MANUALLY
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2d$svg$2f$es$2f$asn$2f$MoonFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons-svg/es/asn/MoonFilled.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$AntdIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/components/AntdIcon.js [app-ssr] (ecmascript)");
+function _extends() {
+    _extends = ("TURBOPACK compile-time truthy", 1) ? Object.assign.bind() : ("TURBOPACK unreachable", undefined);
+    return _extends.apply(this, arguments);
+}
+;
+;
+;
+const MoonFilled = (props, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createElement"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$components$2f$AntdIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], _extends({}, props, {
+        ref: ref,
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2d$svg$2f$es$2f$asn$2f$MoonFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
+    }));
+/**![moon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdmlld0JveD0iNjQgNjQgODk2IDg5NiIgZm9jdXNhYmxlPSJmYWxzZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNDg5LjUgMTExLjY2YzMwLjY1LTEuOCA0NS45OCAzNi40NCAyMi41OCA1Ni4zM0EyNDMuMzUgMjQzLjM1IDAgMDA0MjYgMzU0YzAgMTM0Ljc2IDEwOS4yNCAyNDQgMjQ0IDI0NCA3Mi41OCAwIDEzOS45LTMxLjgzIDE4Ni4wMS04Ni4wOCAxOS44Ny0yMy4zOCA1OC4wNy04LjEgNTYuMzQgMjIuNTNDOTAwLjQgNzQ1LjgyIDcyNS4xNSA5MTIgNTEyLjUgOTEyIDI5MS4zMSA5MTIgMTEyIDczMi42OSAxMTIgNTExLjVjMC0yMTEuMzkgMTY0LjI5LTM4Ni4wMiAzNzQuMi0zOTkuNjVsLjItLjAxeiIgLz48L3N2Zz4=) */ const RefIcon = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["forwardRef"])(MoonFilled);
+if ("TURBOPACK compile-time truthy", 1) {
+    RefIcon.displayName = 'MoonFilled';
+}
+const __TURBOPACK__default__export__ = RefIcon;
+}}),
+"[project]/node_modules/@ant-design/icons/es/icons/MoonFilled.js [app-ssr] (ecmascript) <export default as MoonFilled>": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "MoonFilled": (()=>__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$MoonFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$MoonFilled$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@ant-design/icons/es/icons/MoonFilled.js [app-ssr] (ecmascript)");
+}}),
+
+};
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__11dfd69e._.js.map

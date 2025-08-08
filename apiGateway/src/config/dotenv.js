@@ -14,15 +14,7 @@ export const SERVICES = [
     target: process.env.AUTH_SERVICE_URL
   },
   {
-    route: "/api/english",
-    target: process.env.ENGLISH_SERVICE_URL
+    route: "/api/dictionary",
+    target: process.env.DICTIONARY_SERVICE_URL
   },
-  {
-    route: "/api/chats",
-    target: process.env.CHATS_SERVICE_URL
-  },
-  {
-    route: "/api/payment",
-    target: process.env.PAYMENT_SERVICE_URL
-  }
 ];

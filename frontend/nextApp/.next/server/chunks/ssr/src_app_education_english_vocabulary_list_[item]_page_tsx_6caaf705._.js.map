@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/khahu/Desktop/API_Gateway_Microservices/frontend/nextApp/src/app/education/english/vocabulary/list/%5Bitem%5D/page.tsx"],"sourcesContent":["\"use client\"\r\n\r\nexport default function Page() {\r\n\r\n\r\n  return (\r\n    \r\n    <></>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IAGtB,qBAEE;AAEJ","debugId":null}}]
+}

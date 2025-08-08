@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/khahu/Desktop/API_Gateway_Microservices/frontend/nextApp/src/hooks/useRouteLoading.ts"],"sourcesContent":["\r\n\"use client\"\r\n\r\nimport { useEffect, useState } from \"react\"\r\nimport { usePathname } from \"next/navigation\"\r\n\r\nexport function useRouteLoading(delay = 100) {\r\n  const pathname = usePathname()\r\n  const [loading, setLoading] = useState(true)\r\n\r\n  useEffect(() => {\r\n    setLoading(true)\r\n    const timeout = setTimeout(() => setLoading(false), delay)\r\n    return () => clearTimeout(timeout)\r\n  }, [pathname])\r\n\r\n  return loading\r\n}\r\n"],"names":[],"mappings":";;;AAGA;AACA;;AAHA;;;AAKO,SAAS,gBAAgB,QAAQ,GAAG;;IACzC,MAAM,WAAW,CAAA,GAAA,qIAAA,CAAA,cAAW,AAAD;IAC3B,MAAM,CAAC,SAAS,WAAW,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IAEvC,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;qCAAE;YACR,WAAW;YACX,MAAM,UAAU;qDAAW,IAAM,WAAW;oDAAQ;YACpD;6CAAO,IAAM,aAAa;;QAC5B;oCAAG;QAAC;KAAS;IAEb,OAAO;AACT;GAXgB;;QACG,qIAAA,CAAA,cAAW","debugId":null}}]
+}

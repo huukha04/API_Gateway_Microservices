@@ -1,0 +1,30 @@
+{
+  "pages": {
+    "/education/languages/vocabulary/library/[...slug]/page": [
+      "static/chunks/node_modules_next_dist_1a6ee436._.js",
+      "static/chunks/src_app_favicon_ico_mjs_756fb309._.js",
+      "static/chunks/_5ac7c7b3._.js",
+      "static/chunks/src_style_tailwind_90781d13.css",
+      "static/chunks/src_app_layout_tsx_007ca514._.js",
+      "static/chunks/src_7047134d._.js",
+      "static/chunks/node_modules_720222fd._.js",
+      "static/chunks/src_app_education_layout_tsx_07ad1d86._.js",
+      "static/chunks/src_app_education_languages_vocabulary_library_layout_tsx_7c4904b7._.js",
+      "static/chunks/src_app_education_languages_vocabulary_library_layout_tsx_6b1211a6._.js",
+      "static/chunks/src_app_education_languages_vocabulary_library_[___slug]_layout_tsx_bdf4b8c1._.js",
+      "static/chunks/src_app_education_languages_vocabulary_library_[___slug]_layout_tsx_63e5cda0._.js",
+      "static/chunks/src_1753741f._.js",
+      "static/chunks/node_modules_recharts_es6_b4bb9b20._.js",
+      "static/chunks/node_modules_@radix-ui_3e6bfcb4._.js",
+      "static/chunks/node_modules_78beb19f._.js",
+      "static/chunks/src_app_education_languages_vocabulary_library_[___slug]_page_tsx_f42e3792._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_17e42fcf._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
+      "static/chunks/node_modules_next_dist_0eb1e458._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_a894171a._.js"
+    ]
+  }
+}

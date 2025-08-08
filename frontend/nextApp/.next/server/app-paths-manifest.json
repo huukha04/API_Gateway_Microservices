@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/dictionary/library/userId/route": "app/api/dictionary/library/userId/route.js",
+  "/api/dictionary/word/[id]/route": "app/api/dictionary/word/[id]/route.js",
+  "/api/dictionary/word/libraryId/route": "app/api/dictionary/word/libraryId/route.js",
+  "/api/dictionary/word/route": "app/api/dictionary/word/route.js",
+  "/education/calendar/page": "app/education/calendar/page.js",
+  "/education/languages/vocabulary/library/[...slug]/page": "app/education/languages/vocabulary/library/[...slug]/page.js",
+  "/education/languages/vocabulary/library/page": "app/education/languages/vocabulary/library/page.js",
+  "/education/page": "app/education/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
